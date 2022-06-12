@@ -1,43 +1,46 @@
 ---
-bio: My research interests include distributed robotics, mobile computing and programmable
-  matter.
+title: "Alex Bruens"
+bio: 
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
-email: ""
+  - course: PhD in International Relations
+    institution: University of Arizona
+    year: Expected 2024
+  - course: MA in International Relations
+    institution: University of Arizona
+    year: 2021
+  - course: BA in Political Science
+    institution: Florida Atlantic University
+    year: 2018
+  - course: BA in Sociology
+    institution: Florida Atlantic University
+    year: 2018
+email: "bruens@email.arizona.edu"
 highlight_name: true
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+- Peacebuiling & Peacekeeping
+- Civil Society (Organizations) & Non-governmental Organizations
+- Dissent & Repression
 organizations:
-- name: Stanford University
-  url: https://www.stanford.edu/
-role: Professor of Artificial Intelligence
+- name: Unviersity of Arizona
+  url: https://sgpp.arizona.edu/people/alexander-bruens
+role: Ph.D. Studuent
 social:
 - icon: envelope
   icon_pack: fas
-  link: /#contact
+  link: mailto:bruens@email.arizona.edu
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
-- icon: graduation-cap
-  icon_pack: fas
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  link: https://twitter.com/alexbruens
+#- icon: graduation-cap
+ # icon_pack: fas
+  #link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
 - icon: github
   icon_pack: fab
-  link: https://github.com/gcushen
+  link: https://github.com/alexbruens
 - icon: linkedin
   icon_pack: fab
-  link: https://www.linkedin.com/
+  link: https://www.linkedin.com/in/alex-bruens/
 superuser: true
 title: Nelson Bighetti
 ---
