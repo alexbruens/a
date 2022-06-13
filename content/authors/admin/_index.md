@@ -11,10 +11,10 @@ education:
     year: 2021
   - course: BA in Political Science
     institution: Florida Atlantic University
-    year: 2018
+    year: 2019
   - course: BA in Sociology
     institution: Florida Atlantic University
-    year: 2018
+    year: 2019
 email: "bruens@email.arizona.edu"
 highlight_name: true
 interests:
@@ -24,7 +24,7 @@ interests:
 organizations:
 - name: Unviersity of Arizona
   url: https://sgpp.arizona.edu/people/alexander-bruens
-role: Ph.D. Studuent
+role: Ph.D. Studuent in International Relations
 social:
 - icon: envelope
   icon_pack: fas
@@ -45,7 +45,7 @@ superuser: true
 title: Alex Bruens
 ---
 
-Alex is a PhD candidate at the University of Arizona. Their research interests examine the role of civil society and non-governmental organizations in development and peacebuilding after civil wars; state repression and social movements during and after conflict; and international peacebuilding initiatives and United Nations peacekeeping. Their dissertation addresses the impact of international interventions, specifically UN peace operations, on dynamics of contentious politics.
+Alex is a PhD stduent at the University of Arizona. Their research interests examine the role of civil society and non-governmental organizations in development and peacebuilding after civil wars; state repression and social movements during and after conflict; and international peacebuilding initiatives and United Nations peacekeeping. Their dissertation addresses the impact of international interventions, specifically UN peace operations, on dynamics of contentious politics.
 
 They aim to describe how interventions and the constellation of actors engaged in development change the landscape for collective action; and how states respond to dissent when they face domestic and international pressures, sometimes which contradict one another. Alex holds two bachelor’s degrees from Florida Atlantic University and a master’s degree from the University of Arizona. Alex uses they/them pronouns.
 
