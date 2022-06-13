@@ -26,13 +26,16 @@ links:
     url: 'https://github.com/alexbruens/PrideR'
 ---
 
-Simple, easy to access R palettes based on pride flags.
-Thanks, Matt <a href="https://github.com/mattreyes13" target="_blank" rel="noopener">{{< icon name="github" pack="fab" >}}</a> for the idea!
+Ever need a fun color palette for your graphs, plots, or... for anything else in {{< icon name="r-project" pack="fab" >}}. I have created a list of palettes based on a number of pride flags, encompassing the original Baker flag created in 1977 to the non-binary flag created in 2014.
+
+Thanks, Matt <a href="https://github.com/mattreyes13" target="_blank" rel="noopener">{{< icon name="github" pack="fab" >}}</a> for the fun idea!
 
 Colors drawn from flags at <a href="https://www.pride.com/pride/2018/6/13/complete-guide-queer-pride-flags-0" target="_blank" rel="noopener">this article.</a>
 
 ## Palette: Flag, color, history
-- `bakerpride`: Original/Baker pride flag, 8 colors, designed by Gilbert Baker in 1977. (<a href="https://en.wikipedia.org/wiki/Gilbert_Baker_(artist)" target="_blank" rel="noopener">more</a>)
+- `bakerpride`: Original/Baker pride flag, 8 colors, designed by Gilbert Baker in 1977.[^1]
+
+[^1]: (<a href="https://en.wikipedia.org/wiki/Gilbert_Baker_(artist)" target="_blank" rel="noopener">For more info.</a>)
 
 - `traditionalpride`: Traditional/Popular pride flag, 6 colors, 1979 San Francisco flag. (<a href="https://www.sftravel.com/article/brief-history-rainbow-flag" target="_blank" rel="noopener">more</a>)
 
