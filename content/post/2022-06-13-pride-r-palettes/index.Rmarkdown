@@ -35,7 +35,7 @@ Colors drawn from flags at <a href="https://www.pride.com/pride/2018/6/13/comple
 ## Palette: Flag, color, history
 - `bakerpride`: Original/Baker pride flag, 8 colors, designed by Gilbert Baker in 1977.[^1]
 
-[^1]: Click<a href="https://en.wikipedia.org/wiki/Gilbert_Baker_(artist)" target="_blank" rel="noopener">here</a> for more information.
+[^1]: Click <a href="https://en.wikipedia.org/wiki/Gilbert_Baker_(artist)" target="_blank" rel="noopener">here</a> for more information.
 
 - `traditionalpride`: Traditional/Popular pride flag, 6 colors, 1979 San Francisco flag.[^2]
 
