@@ -18,34 +18,34 @@ projects: []
 ---
 
 Simple, easy to access R palettes based on pride flags.
-Thanks, Matt <a href="https://github.com/mattreyes13">{{< icon name="github" pack="fab" >}}</a> for the idea!
+Thanks, Matt <a href="https://github.com/mattreyes13" target="_blank" rel="noopener">{{< icon name="github" pack="fab" >}}</a> for the idea!
 
-Colors drawn from flags at <a href="https://www.pride.com/pride/2018/6/13/complete-guide-queer-pride-flags-0">this article.</a>
+Colors drawn from flags at <a href="https://www.pride.com/pride/2018/6/13/complete-guide-queer-pride-flags-0" target="_blank" rel="noopener">this article.</a>
 
 ## Palette: Flag, color, history
-- `bakerpride`: Original/Baker pride flag, 8 colors, designed by Gilbert Baker in 1977. (<a href="https://en.wikipedia.org/wiki/Gilbert_Baker_(artist)">more</a>)
+- `bakerpride`: Original/Baker pride flag, 8 colors, designed by Gilbert Baker in 1977. (<a href="https://en.wikipedia.org/wiki/Gilbert_Baker_(artist)" target="_blank" rel="noopener">more</a>)
 
-- `traditionalpride`: Traditional/Popular pride flag, 6 colors, 1979 San Francisco flag. (<a href="https://www.sftravel.com/article/brief-history-rainbow-flag">more</a>)
+- `traditionalpride`: Traditional/Popular pride flag, 6 colors, 1979 San Francisco flag. (<a href="https://www.sftravel.com/article/brief-history-rainbow-flag" target="_blank" rel="noopener">more</a>)
 
-- `phillypride`: Philadelphia pride flag, 8 colors, recognizing that queerness is intersectional. (<a href="https://en.wikipedia.org/wiki/Rainbow_flag_(LGBT)#Variations">more</a>)
+- `phillypride`: Philadelphia pride flag, 8 colors, recognizing that queerness is intersectional. (<a href="https://en.wikipedia.org/wiki/Rainbow_flag_(LGBT)#Variations" target="_blank" rel="noopener">more</a>)
 
-- `bipride`: Bisexual pride flag, 3 colors, designed by Michael Page in 1998. (<a href="https://www.thisisbiscuit.co.uk/hoisting-our-colours-a-brief-history-of-the-bisexual-pride-flag/">more</a>)
+- `bipride`: Bisexual pride flag, 3 colors, designed by Michael Page in 1998. (<a href="https://www.thisisbiscuit.co.uk/hoisting-our-colours-a-brief-history-of-the-bisexual-pride-flag/" target="_blank" rel="noopener">more</a>)
 
-- `panpride`: Pansexual pride flag, 3 colors, popular online since early 2010s. (<a href="https://en.wikipedia.org/wiki/Pansexual_pride_flag">more</a>)
+- `panpride`: Pansexual pride flag, 3 colors, popular online since early 2010s. (<a href="https://en.wikipedia.org/wiki/Pansexual_pride_flag" target="_blank" rel="noopener">more</a>)
 
-- `apride`: Asexual pride flag, 4 colors, created by AVEN user _standup_ in 2010. (<a href="http://www.asexualityarchive.com/the-asexuality-flag/">more</a>)
+- `apride`: Asexual pride flag, 4 colors, created by AVEN user _standup_ in 2010. (<a href="http://www.asexualityarchive.com/the-asexuality-flag/" target="_blank" rel="noopener">more</a>)
 
-- `labryspride`: Labrys lesbian flag, 3 colors, created by lesbian feminists in the 1970s. (<a href="http://findinglesbians.blogspot.com/2013/08/labrys-tool-of-lesbian-feminism.html">more</a>)
+- `labryspride`: Labrys lesbian flag, 3 colors, created by lesbian feminists in the 1970s. (<a href="http://findinglesbians.blogspot.com/2013/08/labrys-tool-of-lesbian-feminism.html" target="_blank" rel="noopener">more</a>)
 
-- `intersexpride`: Intersex pride flag, 2 colors, created in 2013 by Morgan Carpenter. (<a href="https://en.wikipedia.org/wiki/Morgan_Carpenter">more</a>)
+- `intersexpride`: Intersex pride flag, 2 colors, created in 2013 by Morgan Carpenter. (<a href="https://en.wikipedia.org/wiki/Morgan_Carpenter" target="_blank" rel="noopener">more</a>)
 
-- `transpride`: Transgender pride flag, 3 colors, created in 1999 by Monica Helmes. (<a href="http://point5cc.com/the-history-of-the-transgender-flag/">more</a>)
+- `transpride`: Transgender pride flag, 3 colors, created in 1999 by Monica Helmes. (<a href="http://point5cc.com/the-history-of-the-transgender-flag/" target="_blank" rel="noopener">more</a>)
 
-- `gfluidpride`: Genderfluid pride flag, 5 colors, creted in 2012 by _genderfluidity_ on Tumblr. (<a href="https://genderfluidity.tumblr.com/post/28614422659/so-i-couldnt-find-a-flag-that">more</a>)
+- `gfluidpride`: Genderfluid pride flag, 5 colors, creted in 2012 by _genderfluidity_ on Tumblr. (<a href="https://genderfluidity.tumblr.com/post/28614422659/so-i-couldnt-find-a-flag-that" target="_blank" rel="noopener">more</a>)
 
-- `gqueerpride`: Genderqueer pride flag, 3 colors, created in 2011 by Marilyn Roxie. (<a href="https://genderqueerid.com/about-flag">more</a>)
+- `gqueerpride`: Genderqueer pride flag, 3 colors, created in 2011 by Marilyn Roxie. (<a href="https://genderqueerid.com/about-flag" target="_blank" rel="noopener">more</a>)
 
-- `lesbianpride`: Lesbian pride flag, 7 colors, adapted from a 2010 post on the blog _This Lesbian Life_. (<a href="https://en.wikipedia.org/wiki/Lesbian_flag">more</a>)
+- `lesbianpride`: Lesbian pride flag, 7 colors, adapted from a 2010 post on the blog _This Lesbian Life_. (<a href="https://en.wikipedia.org/wiki/Lesbian_flag" target="_blank" rel="noopener">more</a>)
 
 - `nonbinarypride`: Nonbinary pride flag, 4 colors, created by Kye Rowan in 2014.
 
