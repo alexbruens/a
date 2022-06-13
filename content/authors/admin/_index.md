@@ -45,7 +45,8 @@ superuser: true
 title: Alex Bruens
 ---
 
-Alex Bruens is...
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+Alex is a PhD candidate at the University of Arizona. Their research interests examine the role of civil society and non-governmental organizations in development and peacebuilding after civil wars; state repression and social movements during and after conflict; and international peacebuilding initiatives and United Nations peacekeeping. Their dissertation addresses the impact of international interventions, specifically UN peace operations, on dynamics of contentious politics.
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+They aim to describe how interventions and the constellation of actors engaged in development change the landscape for collective action; and how states respond to dissent when they face domestic and international pressures, sometimes which contradict one another. Alex holds two bachelor’s degrees from Florida Atlantic University and a master’s degree from the University of Arizona. Alex uses they/them pronouns.
+
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/Bruens_CV_2022.pdf" "newtab" >}}curriculum vitae{{< /staticref >}}.
