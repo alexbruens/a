@@ -1,13 +1,17 @@
 ---
 title: Pride R Palettes
 author: R package build
+profile: true
 date: '2022-06-13'
 slug: pride-r-palette
-categories: []
-tags: []
+categories:
+  - R
+tags:
+  - R
 subtitle: ''
 summary: ''
-authors: []
+authors:
+  - admin
 lastmod: '2022-06-13T13:01:33-07:00'
 featured: no
 image:
@@ -15,6 +19,11 @@ image:
   focal_point: ''
   preview_only: no
 projects: []
+links:
+  - icon_pack: fab
+    icon: github
+    name: Originally Published to Github
+    url: 'https://github.com/alexbruens/PrideR'
 ---
 
 Simple, easy to access R palettes based on pride flags.
