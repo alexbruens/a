@@ -24,6 +24,7 @@ interests:
 organizations:
 - name: Unviersity of Arizona
   url: https://sgpp.arizona.edu/people/alexander-bruens
+- name: Pronouns: they/them
 role: Ph.D. Studuent in International Relations
 social:
 - icon: envelope
