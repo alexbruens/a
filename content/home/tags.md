@@ -1,4 +1,5 @@
 ---
+active: false
 active:false
 
 # An instance of the Tag Cloud widget.
