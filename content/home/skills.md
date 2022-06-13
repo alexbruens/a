@@ -2,6 +2,7 @@
 # An instance of the Featurette widget.
 # Documentation: https://wowchemy.com/docs/page-builder/
 widget: featurette
+active: false
 
 # This file represents a page section.
 headless: true
@@ -42,6 +43,5 @@ feature:
 #  icon_pack: "custom"
 #  name: "Surfing"
 #  description: "90%"
-active:false
 
 ---
