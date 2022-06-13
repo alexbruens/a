@@ -1,7 +1,7 @@
-active:false
 ---
 
 active: false
+active:false
 
 # An instance of the Featurette widget.
 # Documentation: https://wowchemy.com/docs/page-builder/
@@ -46,7 +46,4 @@ feature:
 #  icon_pack: "custom"
 #  name: "Surfing"
 #  description: "90%"
-
-
-
 ---
