@@ -1,6 +1,4 @@
 ---
-
-active: false
 active:false
 
 # An instance of the Featurette widget.

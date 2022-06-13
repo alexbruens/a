@@ -1,5 +1,4 @@
 ---
-active: false
 active:false
 
 # An instance of the Pages widget.
