@@ -48,5 +48,5 @@ item:
     organization_url: https://www.datacamp.com
     title: 'Object-Oriented Programming in R'
     url: ''
-design: columns: '2'
+    design: columns: '2'
 ---
