@@ -1,7 +1,4 @@
 ---
-
-active:false
-
 # An instance of the Contact widget.
 widget: contact
 
@@ -55,6 +52,6 @@ content:
       name: Zoom Me
       link: 'https://zoom.com'
 
-design:
-  columns: '2'
+design: columns: '2'
+active:false
 ---

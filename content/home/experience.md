@@ -1,7 +1,4 @@
 ---
-
-active:false
-
 # An instance of the Experience widget.
 # Documentation: https://wowchemy.com/docs/page-builder/
 widget: experience
@@ -48,6 +45,6 @@ experience:
     date_end: '2020-12-31'
     description: Taught electronic engineering and researched semiconductor physics.
 
-design:
-  columns: '2'
+design:  columns: '2'
+active:false
 ---

@@ -1,7 +1,4 @@
 ---
-
-active:false
-
 # An instance of the Accomplishments widget.
 # Documentation: https://wowchemy.com/docs/page-builder/
 widget: accomplishments
@@ -51,6 +48,8 @@ item:
     title: 'Object-Oriented Programming in R'
     url: ''
 
-design:
-  columns: '2'
+design: columns: '2'
+  
+active:false
+
 ---
