@@ -22,7 +22,7 @@ interests:
 - Civil Society (Organizations) & Non-governmental Organizations
 - Dissent & Repression
 organizations:
-- name: Unviersity of Arizona
+- name: University of Arizona
   url: https://sgpp.arizona.edu/people/alexander-bruens
 - name: (they/them)
 role: Ph.D. Studuent in International Relations
