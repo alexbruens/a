@@ -15,21 +15,21 @@ education:
   - course: BA in Sociology
     institution: Florida Atlantic University
     year: 2019
-email: "bruens@email.arizona.edu"
+email: "bruens@arizona.edu"
 highlight_name: true
 interests:
-- Peacebuiling & Peacekeeping
+- United Nations Peacebuiling & Peacekeeping
 - Civil Society (Organizations) & Non-governmental Organizations
 - Dissent & Repression
 organizations:
 - name: University of Arizona
   url: https://sgpp.arizona.edu/people/alexander-bruens
 - name: (they/them)
-role: Ph.D. Studuent in International Relations
+role: Ph.D. Candidate in International Relations
 social:
 - icon: envelope
   icon_pack: fas
-  link: mailto:bruens@email.arizona.edu
+  link: mailto:bruens@arizona.edu
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/alexbruens
@@ -45,10 +45,10 @@ social:
 superuser: true
 ---
 
-Alex is a PhD stduent at the University of Arizona. Their research interests examine the role of civil society and non-governmental organizations in development and peacebuilding after civil wars; state repression and social movements during and after conflict; and international peacebuilding initiatives and United Nations peacekeeping. Their dissertation addresses the impact of international interventions, specifically UN peace operations, on dynamics of contentious politics.
+Alex is a PhD candidate at the University of Arizona. Their research interests examine the role of civil society and non-governmental organizations in development and peacebuilding after civil wars; state repression and social movements during and after conflict; and international peacebuilding initiatives and United Nations peacekeeping. Their dissertation addresses the impact of international interventions, specifically UN peace operations, on dynamics of contentious politics.
 
-They aim to describe how interventions and the constellation of actors engaged in development change the landscape for collective action; and how states respond to dissent when they face domestic and international pressures, sometimes which contradict one another. Alex holds two bachelor’s degrees from Florida Atlantic University and a master’s degree from the University of Arizona.
+They aim to describe how interventions and the constellation of actors engaged in development change the landscape for collective action; and how states respond to dissent when they face domestic and international pressures, sometimes which contradict one another. Alex participated in the Bridging the Gap New Era Workshop in 2022. Alex holds two bachelor’s degrees from Florida Atlantic University and a master’s degree from the University of Arizona.
 
 Alex uses they/them pronouns.
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/Bruens_CV_2022.pdf" "newtab" >}}curriculum vitae{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/Bruens_CV.pdf" "newtab" >}}curriculum vitae{{< /staticref >}}.
