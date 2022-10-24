@@ -35,7 +35,7 @@ social:
   link: https://twitter.com/alexbruens
 #- icon: graduation-cap
  # icon_pack: fas
-  #link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  #link: 
 - icon: github
   icon_pack: fab
   link: https://github.com/alexbruens

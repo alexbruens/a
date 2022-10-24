@@ -1,19 +1,19 @@
 ---
-draft: true
-date: "2016-04-27T00:00:00Z"
+draft: false
+date: "2022"
 external_link: ""
 image:
-  caption: Photo by rawpixel on Unsplash
+  caption: 
   focal_point: Smart
 links:
 - icon: twitter
   icon_pack: fab
   name: Follow
-  url: https://twitter.com/georgecushen
-slides: example
+  url: https://twitter.com/alexbreuns
+slides:
 summary: An example of using the in-built project page.
 tags:
-- Deep Learning
+- Working Paper
 title: Example Project
 url_code: ""
 url_pdf: ""
