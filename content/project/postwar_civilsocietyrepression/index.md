@@ -13,7 +13,7 @@ links:
   name: Alex Bruens
   url: https://twitter.com/alexbreuns
 slides:
-summary: 
+summary: When do states exiting conflict repress civil society organizations?
 tags:
 - WorkingPapers
 - CivilSociety
