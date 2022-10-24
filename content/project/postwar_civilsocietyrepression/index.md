@@ -10,7 +10,7 @@ image:
 links:
 - icon: twitter
   icon_pack: fab
-  name: Follow
+  name: Alex Bruens
   url: https://twitter.com/alexbreuns
 slides:
 summary: 
