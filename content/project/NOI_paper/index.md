@@ -15,11 +15,11 @@ links:
   icon_pack: fab
   name: Alex Bruens
   url: https://twitter.com/alexbruens
-- icon: website
+- icon: globe
   icon_pack: fab
   name: Jessica Maves Braithwaite
   url: https://www.jessicamaves.com
-- icon: browser
+- icon: globe
   icon_pack: fas
   name: Susanna Campbell
   url: https://www.susannacampbell.com
