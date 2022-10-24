@@ -2,6 +2,9 @@
 draft: false
 date: "2022-01-01"
 external_link: ""
+authors:
+- admin
+- Susanna Campbell
 image:
   caption: 
   focal_point: Smart
