@@ -16,7 +16,7 @@ links:
   name: Alex Bruens
   url: https://twitter.com/alexbruens
 - icon: globe
-  icon_pack: fab
+  icon_pack: fas
   name: Jessica Maves Braithwaite
   url: https://www.jessicamaves.com
 - icon: globe
