@@ -11,11 +11,11 @@ links:
   name: Follow
   url: https://twitter.com/alexbreuns
 slides:
-summary: How do networks of international and domestic organizations engaging in concurrent peacebuilding and development initiatives with UN peace operations affect peace and security outcomes in conflict-affected states?
+summary: How do networks of international and domestic organizations engaged in peacebuilding and development initiatives concurrent with UN peace operations affect peace and security outcomes in conflict-affected states?
 tags:
 - WorkingPapers
 - UN
-title: Who Keeps the Peace? Reconceptualizing Peacebuilding Through Networks of Influence and Support.
+title: Who Keeps the Peace? Reconceptualizing Peacebuilding Through Networks of Influence and Support
 url_code: ""
 url_pdf: ""
 url_slides: ""

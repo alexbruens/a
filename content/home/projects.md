@@ -28,12 +28,14 @@ content:
   filter_button:
     - name: All
       tag: '*'
-    - name: Working Papers
-      tag: WorkingPapers
+    - name: Repression
+      tag: Repression
     - name: UN Peace Operations
       tag: UN
     - name: Civil Society
       tag: CivilSociety
+    - name: Peace Agreements
+      tag: PeaceAgreements
 
 design:
   # Choose how many columns the section has. Valid values: '1' or '2'.
