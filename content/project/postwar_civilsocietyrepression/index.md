@@ -2,6 +2,8 @@
 draft: false
 date: "2022-01-01"
 external_link: ""
+authors:
+- admin
 image:
   caption: 
   focal_point: Smart

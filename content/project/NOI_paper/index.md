@@ -4,7 +4,9 @@ date: "2022-01-01"
 external_link: ""
 authors:
 - admin
+- Jessica Maves Braithwaite
 - Susanna Campbell
+- Hatem Zayed
 image:
   caption: 
   focal_point: Smart
