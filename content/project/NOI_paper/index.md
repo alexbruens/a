@@ -13,8 +13,20 @@ image:
 links:
 - icon: twitter
   icon_pack: fab
-  name: Follow
-  url: https://twitter.com/alexbreuns
+  name: Alex Bruens
+  url: https://twitter.com/alexbruens
+- icon: website
+  icon_pack: fab
+  name: Jessica Maves Braithwaite
+  url: https://www.jessicamaves.com
+- icon: browser
+  icon_pack: fas
+  name: Susanna Campbell
+  url: https://www.susannacampbell.com
+- icon: twitter
+  icon_pack: fab
+  name: Hatem Zayed
+  url: https://twitter.com/hatemmozayed
 slides:
 summary: How do networks of international and domestic organizations engaged in peacebuilding and development initiatives concurrent with UN peace operations affect peace and security outcomes in conflict-affected states?
 tags:
