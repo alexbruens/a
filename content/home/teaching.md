@@ -8,7 +8,7 @@ active: true
 headless: true
 
 # Order that this section appears on the page.
-weight: 59
+weight: 60
 
 title: Teaching
 subtitle: ''
