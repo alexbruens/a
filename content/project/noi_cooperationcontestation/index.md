@@ -6,7 +6,6 @@ authors:
 - admin
 - Jessica Maves Braithwaite
 - Susanna Campbell
-- Hatem Zayed
 image:
   caption: 
   focal_point: Smart
@@ -23,20 +22,16 @@ links:
   icon_pack: fas
   name: Susanna Campbell
   url: https://www.susannacampbell.com
-- icon: twitter
-  icon_pack: fab
-  name: Hatem Zayed
-  url: https://twitter.com/hatemmozayed
 slides:
-summary: How do networks of international and domestic organizations engaged in peacebuilding and development initiatives concurrent with UN peace operations affect peace and security outcomes in conflict-affected states?
+summary: We develop and test a theory of network-based cooperation and contestation among international and domestic actors in conflict-affected countries.
 tags:
 - WorkingPapers
 - UN
-title: Who Keeps the Peace? Reconceptualizing Peacebuilding Through Networks of Influence and Support
+title: Networks of Cooperation and Contestation in Conflict
 url_code: ""
 url_pdf: ""
 url_slides: ""
 url_video: ""
 ---
 
-International peacekeeping, peacebuilding, and development actors are increasingly focusing their efforts in conflict-affected states. In any single fragile or conflict-affected country, there are dozens, if not hundreds, of international actors operating with the aim of building peace, preventing violent extremism, reducing poverty, saving lives, or rebuilding infrastructure that was destroyed by conflict. They are connected to each other and to domestic state and non-state actors through formal contracts, informal relationships, and regular coordination meetings. Existing scholarship on international intervention in conflict-affected states largely ignores these networks and contractual relationships, instead treating all intervening actors as a single monolith, investigating only the behavior of a single type of intervenor, such as peacekeepers, or identifying the impact of a single peacebuilding intervention (Doyle and Sambanis 2000, 2006; Fortna 2008; Autesserre 2009, 2010, 2014; Narang 2014; Blair, Di Salvatore, and Smidt 2022). Using original data collected on the networks of influence and support in Colombia, we argue that it is important to redress this gap in the literature by examining the effect of networks among intervening actors and their domestic counterparts on peace and security outcomes in conflict-affected states. 
+Even though the majority of peace operations are multidimensional (including both military and civilian components), existing analyses of these missions largely ignores the civilian aspects of peace operations and the breadth of actors that work with and alongside UN peace operations. The omission of civilian actors is substantiated by the theory that underpins much of the peacekeeping literature: that the presence of peacekeepers increases the costs of war and reduces the costs of cooperation, enabling domestic and international actors to work concertedly toward peace (Fortna 2008; Fortna and Howard 2008). The focus of the scholarship on the number of peacekeepers overlooks the UN peace operations that occur most frequently – Special Political Missions – and the broader networks of United Nations, International Non-Governmental (INGO), National Non-Governmental Organizations (NNGOs), and states that operate with and alongside peace operations. By concentrating primarily or wholly on one type of peace actor, existing scholarship fails to capture the ways in which these different actors support or contest one another, particularly in a time of increasing geopolitical competition. Using an original dataset of these diverse networks across 22 countries (2005-2021), this paper develops and tests a theory of network-based cooperation and contestation among international and domestic actors in conflict-affected countries. The findings not only shed light on who actually builds peace, they also challenge the literature’s assumption that cooperation among peace actors fosters peace.
