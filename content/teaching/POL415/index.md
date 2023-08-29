@@ -13,13 +13,9 @@ links:
   name: Alex Bruens
   url: https://twitter.com/alexbreuns
 slides:
-summary: What are the effects of including civil society representatives in peace agreements on post-war democratization and stability?
+summary: X
 tags:
-- WorkingPapers
-- CivilSociety
-- PeaceAgreements
-- Repression
-title: Peace Agreements and Post-War Civil Society
+title: POL415
 url_code: ""
 url_pdf: ""
 url_slides: ""
