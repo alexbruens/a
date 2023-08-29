@@ -27,6 +27,7 @@ summary: When are concentration camps, a unique form of state repression, used i
 tags:
 - WorkingPapers
 - Repression
+- HumanRights
 title: 'Concentration Camps Unveiled: A Comparative Analysis of their Roles in Contemporary Conflicts'
 url_code: ""
 url_pdf: ""
