@@ -36,7 +36,7 @@ social:
   link: https://twitter.com/alexbruens
 - icon: graduation-cap
   icon_pack: fas
-  link: https://sgpp.arizona.edu/person/alexander-bruens
+  link: https://sgpp.arizona.edu/person/alex-bruens
 - icon: github
   icon_pack: fab
   link: https://github.com/alexbruens
@@ -54,7 +54,7 @@ For the past three years, Alex was a lead research assistant on a National Scien
 
 Alex's research agenda allows for multiple pathways to examine networks around specific international non-governmental organizations, investigate efficacy of international collaboration tools like those used by the United Nations, and understand dyadic state cooperation in the context of great powers politics. Furthermore, the role of international human rights organizations is largely overlooked in the peacebuilding and development environment; I hope to pursue this line of questioning further. In terms of state repression, I will continue to contribute to a burgeoning literature on non-violent repression of civil society and restrictions on non-governmental organizations by applying underutilized data on these restrictions.
 
-Alex participated in the Bridging the Gap [New Era Workshop](https://bridgingthegapproject.org/programs/new-era/) in 2022. Alex has presented working papers at the annual meetings of the Peace Science Society in 2022 ([1]({{< relref "/project/noi_agendasettingpaper" >}})), International Studies Association in 2023 ([3]({{< relref "/project/postwar_civilsocietyrepression" >}}), [4]({{<relref "/project/agreements_civilsociety" >}})), and the Political Economy of International Organizations in 2023 ([1]({{< relref "/project/noi_agendasettingpaper" >}})). Alex holds two bachelor’s degrees from Florida Atlantic University and a master’s degree from the University of Arizona.
+Alex attended the [Institute for Qualitative and Multi-Method Research (IQMR)](https://www.maxwell.syr.edu/research/center-for-qualitative-and-multi-method-inquiry/institute-for-qualitative-multi-method-research) in 2023 and participated in the Bridging the Gap [New Era Workshop](https://bridgingthegapproject.org/programs/new-era/) in 2022. Alex has presented working papers at the annual meetings of the Peace Science Society in 2022 ([1]({{< relref "/project/noi_agendasettingpaper" >}})), International Studies Association in 2023 ([3]({{< relref "/project/postwar_civilsocietyrepression" >}}), [4]({{<relref "/project/agreements_civilsociety" >}})), and the Political Economy of International Organizations in 2023 ([1]({{< relref "/project/noi_agendasettingpaper" >}})). Alex holds two bachelor’s degrees from Florida Atlantic University and a master’s degree from the University of Arizona.
 
 Alex uses they/them pronouns.
 
