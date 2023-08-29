@@ -26,7 +26,6 @@ slides:
 summary: When are concentration camps, a unique form of state repression, used in contemporary civil wars?
 tags:
 - WorkingPapers
-- HumanRights
 - Repression
 title: Concentration Camps Unveiled: A Comparative Analysis of their Roles in Contemporary Conflicts
 url_code: ""
