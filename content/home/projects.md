@@ -36,6 +36,8 @@ content:
       tag: CivilSociety
     - name: Peace Agreements
       tag: PeaceAgreements
+    - name: Human Rights
+      tag: HumanRights
 
 design:
   # Choose how many columns the section has. Valid values: '1' or '2'.
