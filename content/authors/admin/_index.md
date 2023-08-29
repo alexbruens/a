@@ -18,9 +18,10 @@ education:
 email: "bruens@arizona.edu"
 highlight_name: true
 interests:
-- United Nations Peacebuiling & Peacekeeping
-- Civil Society (Organizations) & Non-governmental Organizations
-- Dissent & Repression
+- United Nations Peace Operations
+- Violent and Non-Violent State Repression
+- Non-governmental Organizations & Civil Society
+- Human Rights, Civil Wars, and Non-State Violence
 organizations:
 - name: University of Arizona
   url: https://sgpp.arizona.edu/people/alexander-bruens
@@ -45,9 +46,15 @@ social:
 superuser: true
 ---
 
-Alex is a PhD candidate at the University of Arizona. Their research interests examine the role of civil society and non-governmental organizations in development and peacebuilding after civil wars; state repression and social movements during and after conflict; and international peacebuilding initiatives and United Nations peacekeeping. Their dissertation addresses the impact of international interventions, specifically UN peace operations, on dynamics of contentious politics.
+Alex is a PhD candidate at the University of Arizona. Their research examines United Nations (UN) peacekeeping and political interventions in civil wars; as well as the myriad non-governmental and state actors working alongside the United Nations in development and peacebuilding after civil wars. They investigate the effect of these interventions on violent and non-violent state repression during and after civil conflicts. Their dissertation, with three empirical chapters, addresses the variation in UN political and peacekeeping missions, their effects on dynamics of repression, and how networks of peacebuilding, development, and humanitarian actors condition these effects.
 
-They aim to describe how interventions and the constellation of actors engaged in development change the landscape for collective action; and how states respond to dissent when they face domestic and international pressures, sometimes which contradict one another. Alex participated in the Bridging the Gap New Era Workshop in 2022. Alex holds two bachelor’s degrees from Florida Atlantic University and a master’s degree from the University of Arizona.
+They aim to elucidate causes and consequences of Special Political Missions (SPMs) explicitly, as the UN has transitioned away from large-scale Peacekeeping Operations (PKOs) over the past decade. Conflict-affected states are characterized by violent and non-violent repression, and PKOs are known to reduce the severity of this repression; are SPMs just as effective? Furthermore, every UN intervention is supported by a number of actors networked through mandates, projects, and informal ties -- how do these networks condition the effect of peace operations on state repression? They address a gap in the literature on international interventions in conflict and state repression, as it posits conflicting theories and findings.
+
+For the past three years, Alex has held the lead research assistant position on a National Science Foundation-funded project with PIs Susanna Campbell and Jessica Maves Braithwaite; this project captures hundreds of thousands of relationships (edges) among over 10,000 international and national organizations which engage in peace, humanitarian, and development work in 20 countries with UN peace operations. In this role, Alex has worked with a large, diverse team of over 30 undergraduate and graduate research assistants. Additionally, they have multiple papers in progress coauthored with the PIs.
+
+Alex's research agenda allows for multiple pathways to examine networks around specific international non-governmental organizations, investigate efficacy of international collaboration tools like those used by the United Nations, and understand dyadic state cooperation in the context of great powers politics. Furthermore, the role of international human rights organizations is largely overlooked in the peacebuilding and development environment; I hope to pursue this line of questioning further. In terms of state repression, I will continue to contribute to a burgeoning literature on non-violent repression of civil society and restrictions on non-governmental organizations by applying underutilized data on these restrictions.
+
+Alex participated in the Bridging the Gap New Era Workshop in 2022. Alex has presented working papers at the annual meetings of the Peace Science Society in 2022, International Studies Association in 2023, and the Political Economy of International Organizations in 2023. Alex holds two bachelor’s degrees from Florida Atlantic University and a master’s degree from the University of Arizona.
 
 Alex uses they/them pronouns.
 
