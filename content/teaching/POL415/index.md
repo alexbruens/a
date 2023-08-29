@@ -1,44 +1,29 @@
 ---
 draft: false
-abstract: x
-author_notes:
+date: "2022-01-01"
+external_link: ""
 authors:
 - admin
-date: "2023-08-26"
-doi: ""
-featured: true
 image:
-  caption:
-  focal_point: ""
-  preview_only: false
-projects:
-- example
-publication: In *Wowchemy Conference*
-publication_short: In *ICW*
-publication_types:
-- "1"
-publishDate: "2017-01-01T00:00:00Z"
-slides: example
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus
-  ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
-tags: []
-title: An example conference paper
+  caption: 
+  focal_point: Smart
+links:
+- icon: twitter
+  icon_pack: fab
+  name: Alex Bruens
+  url: https://twitter.com/alexbreuns
+slides:
+summary: What are the effects of including civil society representatives in peace agreements on post-war democratization and stability?
+tags:
+- WorkingPapers
+- CivilSociety
+- PeaceAgreements
+- Repression
+title: Peace Agreements and Post-War Civil Society
 url_code: ""
-url_dataset: ""
 url_pdf: ""
-url_poster: ""
-url_project: ""
 url_slides: ""
-url_source: ""
 url_video: ""
 ---
 
-{{% callout note %}}
-Click the _Cite_ button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
-
-{{% callout note %}}
-Create your slides in Markdown - click the _Slides_ button to check out the example.
-{{% /callout %}}
-
-Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/).
+Almost half of all civil war peace agreements between 1989 and 2011 include provisions addressing the inclusion of civil society in peace processes or peacebuilding efforts. Accord success is often evaluated by post-war peace durability, but certain elements of the design and structure are argued to increase the likelihood of democratization; though post-war democratization is rare in all cases. Christine Bell and Catherine O’Rourke have argued civil society provisions may not have a positive effect on post-war participatory democracy or peace outcomes as they 1) do not always promote these ideals and 2) hold oppositional positions to the state during conflict. Conversely, I argue that peace agreements with civil society provisions increase the likelihood of civil society consultation with the government and participation among civilians, which provides civilians diagonal accountability. Furthermore, I argue that agreements with civil society provisions provide pathways that legitimate, institutionalize, and provide resources to associations which produce social capital – increasing the likelihood of democratization. I test this argument using a number of measurements of state-society relations, accountability, and democracy. I find that post-war states with agreements that have civil society provisions are more likely to consult with civil society organizations, and democratization is slightly more likely.
