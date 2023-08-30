@@ -9,9 +9,9 @@ image:
   focal_point: Smart
 links:
 slides:
-summary: The Scientific Study of Civil Wars
+summary: Fall 2023 course _The Scientific Study of Civil Wars_
 tags:
-title: POL415: The Scientific Study of Civil Wars
+title: "POL415: The Scientific Study of Civil Wars"
 url_code: ""
 url_pdf: "/POL415_Syllabus_v2.pdf"
 url_slides: ""
