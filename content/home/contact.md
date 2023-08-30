@@ -26,7 +26,7 @@ content:
 #      captcha: false
 
   # Contact details (edit or remove options as required)
-  email: bruens@email.arizona.edu
+  email: bruens@arizona.edu
   address:
     street: P.O. Box 210027
     city: Tucson

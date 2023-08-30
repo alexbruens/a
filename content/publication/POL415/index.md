@@ -18,7 +18,7 @@ url_slides: ""
 url_video: ""
 ---
 
-{{% staticref "/POL415_Syllabus_v2.pdf" "newtab" %}}Please find the Fall 2023 Syllabus here.{{% /staticref %}}
+{{% staticref "/uploads/POL415_Syllabus_v2.pdf" "newtab" %}}Please find the Fall 2023 Syllabus here.{{% /staticref %}}
 
 **Description**
 
