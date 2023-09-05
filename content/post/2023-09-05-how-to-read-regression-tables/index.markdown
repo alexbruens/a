@@ -1,5 +1,5 @@
 ---
-title: How to Read Regression Tables (International Relations)
+title: How to Read Political Science Regression Tables
 author: R package build
 profile: true
 date: '2023-09-05'
@@ -22,13 +22,13 @@ projects: []
 links: ''
 ---
 
-If you're reading scholarly political science articles, especially international relations pieces, you may have questions about how to read and interpret regression tables.
+When reading scholarly political science articles, especially international relations pieces, regression tables are _everywhere_. And sometimes they're difficult to interpret, read, and understand.
 
-In this post, I review how to interpret regression tables in articles related to civil wars. This post is originally published as a compliment to my Fall 2023 course ([link to course]({{< relref "/publication/pol415" >}})).
+In this post, I review how to interpret regression tables in articles related to civil wars. This post is originally published as a compliment to my Fall 2023 course titled _The Scientific Study of Civil Wars_ ([link to course]({{< relref "/publication/pol415" >}})).
 
 {{< toc >}}
 
-## Descriptive Statistics
+## Descriptive Statistics Tables
 
 When you come across tables in readings, you often will first encounter *descriptive statistics*. These tables provide descriptive information about the data used in the analyses. To build understanding, it's key that you review this descriptive information -- this allows you to identify the article's (limited or broad) application and critique any shortcomings.
 
@@ -86,6 +86,8 @@ I would argue that OLS regression is not commonplace in civil war literature, as
 
 [^3]: Model selection should be driven by the measurement and type of dependent variable. OLS estimation requires a continuous variable with a normal distribution. Additionally, OLS models are used when the expected relationship between dependent and independent variables is *linear*. Other estimation strategies, like logistic regression, have different assumptions about the dependent variable and expected relationship. For example, logistic regressions are often used when dependent variables are categorical -- e.g., 0 or 1, or 0, 1, 2, 3, or some other distinctive categories. Other dependent variables, like temporal-based measurements like duration or time-to-event, require wholly different modeling strategies like hazards models.
 
+Lacina is testing determinants of civil war severity. The dependent variable in this model is the log of total battle deaths.
+
 ![Table 2 in Lacina 2006](images/Lacina2006_Table2.png "Lacina 2006: Table 2")
 
 This table identifies the employed model in the title. On the left side, we see a list of independent variables. The dependent variable **does not show up** in the table. As a reminder, we are estimating the effect of independent variables (IVs) *on* the dependent variable (DV). In this case, the DV is measured as the log of total battle deaths, so it is continuous. We are estimating linear relationships, where an increase (decrease) in the value of the IV corresponded to an increase (decrease) in the value of the DV. This increase (decrease) is represented by the *coefficient*.
@@ -94,14 +96,36 @@ In this example, an increase of one value in the IV corresponds to an additional
 
 The p-value is the probability of this result given the null hypothesis were true. Often, the null hypothesis is not spelled out in articles; this usually represents a non-relationship. For example, the null hypothesis in the above table for *ln Duration* is that duration has no effect on battle deaths. In this case, the p-value is 0.000 -- statistically significant, giving us reason to **reject the null hypothesis**. The smaller the p-value, the more confident we are in rejecting the null hypothesis.
 
-P-values are usually associated with asterisks (\*) in tables, where more asterisks/stars are given based on thresholds. The most common are below:
+## Logistic Regression
 
--   *p* \< 0.10 =
-    -   Corresponding with a z-score or standard deviations of:
-    -   \< -1.65 or \> +1.65
--   *p* \< 0.05 =
+Logistic regression (or "logit") models the probability of an event/outcome based on the linear combination of independent variables. The dependent variable, or outcome, is **categorical**: binary (0 or 1), multinomial (3 or more categories without ordering), or ordinal (3 or more categories with ordering). The logistic model is 'logistic' because data is first fit into a linear regression model, then predicted using a logistic function -- producing a log curve.
+
+The outcome of logistic regressions is **probability** -- meaning it is bounded between 0 and 1. First, the _odds_ of the outcome are estimated. Then, a logit transformation is applied to the _odds_ to produce the _log odds_, i.e., the probability of success divided by the probability of failure. The _odds ratio_ represents the probability of the outcome as a function of changes in the independent variable(s) -- i.e., the value representing the odds of the outcome being 1 versus 0 for every one unit increase in an IV. The _odds ratio_ is the exponentiated coefficient for a predictor. 
+
+### Example Table: Fearon and Laitin (2003)
+
+This next example come from James Fearon and David Laitin's 2003 article titled "Ethnicity, Insurgency, and Civil War" published in _The American Political Science Review_. They are testing determinants of civil war onset, which include prior wars, state-level factors, and social factors.
+
+![Table 1 in Fearon and Laitin 2003](images/FearonLaitin2003_Table1.png "Fearon and Laitin 2003: Table 1")
+In this table, we clearly see this is a logistic regression (logit) in the title. The column on the left are the independent variables, and the columns labeled 1 through 5 represent **different models** -- in this case, different measurements of civil war.
+
+The first row measures whether the country had a prior war. It is binary and takes the value of 1 if there was a prior war and 0 otherwise. I will focus on the coefficient in the first model ('Civil War'). This coefficient is negative and has two asterisks next to it. Underneath it, there is a number in parentheses. This number is the standard errors **of the coefficient**. This is used to calculate the p-value. If we multiply the standard error by 1.96 or 2.58 or 3.29 (z-scores listed below), then add and subtract that value from the coefficient,[^4] we can list the number of asterisks for any values that **do not cross 0**. When the value crosses 0, we can no longer be confident that there is an effect of the independent variable on the dependent variable.
+
+[^4]: This is for a two-tailed test. For one-tailed tests, you just add _or_ subtract the value. Determining the direction of the tail is a theoretical question, but many articles simply use a two-tailed test.
+
+In this example, we are moderately confident that there is a negative effect of prior war on the onset of civil war. To further interpret this coefficient, we can exponentiate the coefficient (e^-0.954) to produce an odds ratio (0.385). We interpret this as the probability of the outcome when there is an increase of 1 in the independent variable. For this example, when states move from no prior war to prior war, they are 0.385 times more likely (corresponding to a reduction of incidence/outcome). This means prior war has a negative or reduction effect on the probability of war onset.
+
+P-values are usually associated with asterisks (\*) in tables, where more asterisks/stars are given based on thresholds. In the above table, the p-value thresholds are listed below:
+-   _p_ \< 0.05 = \*
     -   Corresponding with a z-score or standard deviations of:
     -   \< -1.96 or \> +1.96
--   *p* \< 0.01 =
+-   _p_ \< 0.01 = \*\*
     -   Corresponding with a z-score or standard deviations of:
     -   \< -2.58 or \> +2.58
+-   _p_ \< 0.001 = \*\*\*
+    -   Corresponding with a z-score or standard deviations of:
+    -   \< -3.29 or \> +3.29
+
+**Cautionary note**: these thresholds are chosen by the authors. Some journals require certain thresholds, others do not. It is important to recognize these thresholds, as different ones could change the interpretation of the asterisks. When in doubt, you can always perform the calculations yourself.
+
+
