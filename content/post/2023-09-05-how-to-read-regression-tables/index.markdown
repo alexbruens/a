@@ -2,7 +2,7 @@
 title: How to Read Regression Tables (International Relations)
 author: R package build
 profile: true
-date: '2023-09-06'
+date: '2023-09-05'
 slug: how-to-read-regression-tables
 categories:
   - Interpretation
@@ -70,7 +70,7 @@ The **standard deviation** column also provides insight into the variation of ea
 
 [^1]: Assuming the data is normally distributed, meaning it has a symmetric bell shape where the mean and mediation are equal. Ordinary least squares regressions require this assumption for all the data.
 
-In the first row, for example, *PHYSINT* is measured from 0 to 8. The mean is 3.128 and the standard deviation is 2.373. Within one standard deviation, 68% of the data fall between 0.755 and 5.501. This tells us that this variable is skewed toward lower scores -- or, that most observations have low violations from $\approx$ 0 to $\approx$ 5.
+In the first row, for example, *PHYSINT* is measured from 0 to 8. The mean is 3.128 and the standard deviation is 2.373. Within one standard deviation, 68% of the data fall between 0.755 and 5.501. This tells us that this variable is skewed toward lower scores -- or, that most observations have low violations from `\(\approx\)` 0 to `\(\approx\)` 5.
 
 ## Ordinary Least Squares Regression
 
