@@ -24,7 +24,7 @@ links: ''
 
 If you're reading scholarly political science articles, especially international relations pieces, you may have questions about how to read and interpret regression tables.
 
-In this post, I review how to interpret regression tables in articles related to civil wars. This post is originally published as a compliment to my Fall 2023 course ([link to course]({{< relref "/publication/pol415/">}})).
+In this post, I review how to interpret regression tables in articles related to civil wars. This post is originally published as a compliment to my Fall 2023 course ([link to course]({{< relref "/publication/pol415" >}})).
 
 {{< toc >}}
 
