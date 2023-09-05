@@ -1,128 +1,107 @@
 ---
-title: Pride R Palettes
+title: How to Read Regression Tables (International Relations)
 author: R package build
 profile: true
-date: '2022-06-13'
-slug: pride-r-palette
+date: '2023-09-06'
+slug: how-to-read-regression-tables
 categories:
-  - R
+  - Interpretation
 tags:
-  - R
+  - Interpretation
 subtitle: ''
 summary: ''
 authors:
   - admin
-lastmod: '2022-06-13T13:01:33-07:00'
+lastmod: ''
 featured: no
 image:
   caption: ''
   focal_point: ''
   preview_only: no
 projects: []
-links:
-  - icon_pack: fab
-    icon: github
-    name: Originally Published to Github
-    url: 'https://github.com/alexbruens/PrideR'
+links: ''
 ---
 
-Ever need a fun color palette for your graphs, plots, or... for anything else in {{< icon name="r-project" pack="fab" >}}. I have created a list of palettes based on a number of pride flags, encompassing the original Baker flag created in 1977 to the non-binary flag created in 2014.
+If you're reading scholarly political science articles, especially international relations pieces, you may have questions about how to read and interpret regression tables.
 
-Thanks, Matt <a href="https://github.com/mattreyes13" target="_blank" rel="noopener">{{< icon name="github" pack="fab" >}}</a> for the fun idea!
+In this post, I review how to interpret regression tables in articles related to civil wars. This post is originally published as a compliment to my Fall 2023 course (\[link\]({{< relref "/publication/pol415/">}})).
 
-Colors drawn from flags at <a href="https://www.pride.com/pride/2018/6/13/complete-guide-queer-pride-flags-0" target="_blank" rel="noopener">this article.</a>
+{{< toc >}}
 
-## Palette: Flag, color, history
-- `bakerpride`: Original/Baker pride flag, 8 colors, designed by Gilbert Baker in 1977.[^1]
+## Descriptive Statistics
 
-[^1]: Click <a href="https://en.wikipedia.org/wiki/Gilbert_Baker_(artist)" target="_blank" rel="noopener">here</a> for more information.
+When you come across tables in readings, you often will first encounter *descriptive statistics*. These tables provide descriptive information about the data used in the analyses. To build understanding, it's key that you review this descriptive information -- this allows you to identify the article's (limited or broad) application and critique any shortcomings.
 
-- `traditionalpride`: Traditional/Popular pride flag, 6 colors, 1979 San Francisco flag.[^2]
+Some questions to keep in mind with descriptive statistics tables:
 
-[^2]: Click <a href="https://www.sftravel.com/article/brief-history-rainbow-flag" target="_blank" rel="noopener">here</a> for more information.
+-   What are the variables the authors highlight? Which ones measure/operationalize (or proxy) their independent and dependent variables?
+-   What is the scope -- temporal and geographic?
+-   How many observations are there in the data? Does this match the expected number of observations from the scope (e.g., country-years should be in the hundreds, whereas country-months should be in the thousands).
+-   Is there substantial variation in the dependent and independent variables? How about the control variables? If not, how might this bias our interpretation?
+    -   Related, are any variables transformed? Either logarithmic or squaring or cubing -- how does this impact our interpretation of the coefficients and broader findings?
 
-- `phillypride`: Philadelphia pride flag, 8 colors, recognizing that queerness is intersectional.[^3]
+Descriptive statistics are useful to get your bearings on the data underpinning an article. **Importantly**: these tables can look very different from article to article, and sometimes convey very different information. This is important to keep in mind becasue you, as a reader/consumer, need to know what you're looking for and how it impacts your interpretation of the analyses.
 
-[^3]: Click <a href="https://en.wikipedia.org/wiki/Rainbow_flag_(LGBT)#Variations" target="_blank" rel="noopener">here</a> for more information.
+### Example Table 1: Collier and Hoeffler (2004)
 
-- `bipride`: Bisexual pride flag, 3 colors, designed by Michael Page in 1998.[^4] 
+The first table we will look at is from Paul Collier and Anke Hoeffler's (C&H) 2004 piece in *Oxford Economic Papers* titled "Greed and grievance in civil war". This article tests the significance of competing theories of *greed* and *grievance* on civil war onset.
 
-[^4]: Click <a href="https://www.thisisbiscuit.co.uk/hoisting-our-colours-a-brief-history-of-the-bisexual-pride-flag/" target="_blank" rel="noopener">here</a> for more information.
+![Table 2 in Collier and Hoeffler 2004](images/CollierHoeffler2004_Table2.png "Collier and Hoeffler 2004: Table 2")
 
-- `panpride`: Pansexual pride flag, 3 colors, popular online since early 2010s.[^5]
+In C&H 2004, we see a relatively standard descriptive statistics table. On the left side of the table, we have all the variables they use in their analysis. On the right side, in three columns, we have the mean of the values for each variable. The sample is broken up into three columns -- full sample, and no civil war versus civil war -- to help the reader understand **patterns in the sample as well as between observations which 'have' the dependent variable and don't.**
 
-[^5]: Click <a href="https://en.wikipedia.org/wiki/Pansexual_pride_flag" target="_blank" rel="noopener">here</a> for more information.
+First, we can identify the number of observations in their sample, denoted by the lowercase *n* in the first column on the right. We also see that the sample is heavily skewed, where most observations have no experience of civil war -- denoted by the low number of observations (*n*) listed in the *'Civil war'* category. One substantive pattern we can identify is that their GDP per capita variable has a larger mean in the *'No civil war'* category than the *'Civil war'* category. But, because there are more observations, we can surmise that the variation is larger in the former category. They do not report variation (or standard deviation, a measure of variation), though.
 
-- `apride`: Asexual pride flag, 4 colors, created by AVEN user _standup_ in 2010.[^6]
+Other variables, the measures of income and land inequality toward the bottom of the table, are relatively consistent in observations with and without civil wars.
 
-[^6]: Click <a href="http://www.asexualityarchive.com/the-asexuality-flag/" target="_blank" rel="noopener">here</a> for more information.
+### Example Table 2: DeMeritt and Young (2013)
 
-- `labryspride`: Labrys lesbian flag, 3 colors, created by lesbian feminists in the 1970s.[^7]
+The second table we will look at is from Jacqueline DeMeritt and Joseph Young's 2013 piece in *Conflict Management and Peace Science* titled "A political economy of human rights". This article examines the impact of oil and natural resource extraction on state-perpetrated human rights violations.
 
-[^7]: Click <a href="http://findinglesbians.blogspot.com/2013/08/labrys-tool-of-lesbian-feminism.html" target="_blank" rel="noopener">here</a> for more information.
+![Table 2 in DeMeritt and Young 2013](images/DeMerittYoung2013_Table2.png "DeMeritt and Young 2013: Table 2")
 
-- `intersexpride`: Intersex pride flag, 2 colors, created in 2013 by Morgan Carpenter.[^8]
+In this table, we are presented with much more information about each variable, including a **description**, **coding/range with explanations**, and **sources** -- along with the mean, median, and standard deviation. This descriptive statistics table gives us a concise overview of all the data used in their analyses.
 
-[^8]: Click <a href="https://en.wikipedia.org/wiki/Morgan_Carpenter" target="_blank" rel="noopener">here</a> for more information.
+On the left of the table, in the 'Variable' column, we have a list of all dependent and independent variables used in the analyses. DeMeritt and Young also split up these variables using headings -- with all the dependent variables listed first under the *DVs* heading, then the key (explanatory) independent variables under the *Key IVs* heading, then all controls.
 
-- `transpride`: Transgender pride flag, 3 colors, created in 1999 by Monica Helmes.[^9]
+In the description column, we are provided a short explanation of what the variable captures. The coding/range column provides the minimum and maximum values the variables can take; this also explains the direction of coding, which is important for variables like *PHYSINT* or *DEMOCRACY*, where a 0 could mean either low violations or high violations or -10 could mean fully dictatorial or fully democratic.
 
-[^9]: Click <a href="http://point5cc.com/the-history-of-the-transgender-flag/" target="_blank" rel="noopener">here</a> for more information.
+The **standard deviation** column also provides insight into the variation of each measurement. We can use the standard deviation to calculate how much of the sample falls within a range of values; this will be useful for interpretation of regression tables as well. The standard deviation is the **measure of variation of data from its mean**, where 1 standard deviation from the mean encompasses 68% of the data.[^1] You can estimate this from descriptive statistics tables by adding and subtracting the standard deviation from the mean.
 
-- `gfluidpride`: Genderfluid pride flag, 5 colors, creted in 2012 by _genderfluidity_ on Tumblr.[^10]
+[^1]: Assuming the data is normally distributed, meaning it has a symmetric bell shape where the mean and mediation are equal. Ordinary least squares regressions require this assumption for all the data.
 
-[^10]: Click <a href="https://genderfluidity.tumblr.com/post/28614422659/so-i-couldnt-find-a-flag-that" target="_blank" rel="noopener">here</a> for more information.
+In the first row, for example, *PHYSINT* is measured from 0 to 8. The mean is 3.128 and the standard deviation is 2.373. Within one standard deviation, 68% of the data fall between 0.755 and 5.501. This tells us that this variable is skewed toward lower scores -- or, that most observations have low violations from $\approx$ 0 to $\approx$ 5.
 
-- `gqueerpride`: Genderqueer pride flag, 3 colors, created in 2011 by Marilyn Roxie.[^11]
+## Ordinary Least Squares Regression
 
-[^11]: Click <a href="https://genderqueerid.com/about-flag" target="_blank" rel="noopener">here</a> for more information.
+Ordinary Least Squares (OLS) regression is a linear least squares estimation strategy. OLS maximizes the sum of the squares of the differences between observed dependent variable and the independent variable. There are many assumptions underpinning OLS regression, but these are not crucial for table interpretation.
 
-- `lesbianpride`: Lesbian pride flag, 7 colors, adapted from a 2010 post on the blog _This Lesbian Life_.[^12]
+We use estimation strategies to determine *causality* between an independent and dependent variable. We regress **dependent variables *on* independent variables**, with the hopes of explaining variation in dependent variables using independent variables. Non-causal methods are also used in political science, like cross-tabulations and correlations (also called bivariate analysis).[^2]
 
-[^12]: Click <a href="https://en.wikipedia.org/wiki/Lesbian_flag" target="_blank" rel="noopener">here</a> for more information.
+[^2]: For example, Barbara Walter uses these non-causal methods reported in tables in her 1997 article titled "The Critical Barrier to Civil War Settlement" in *International Organizations*. These correlations are used becasue the data represent the entire population of civil wars between 1940 and 1990. One assumption underpinning least squares regression is that the data are a *sample* that can be generalized to a larger *population* with similar characteristics. Walter additionally conducts conventional tests to assuage any concern (see fn. 37, pg. 349).
 
-- `nonbinarypride`: Nonbinary pride flag, 4 colors, created by Kye Rowan in 2014.
+### Example Table: Lacina (2006)
 
-## Examples
-`bakerpride` is 8 colors, which can be displayed using;
+I would argue that OLS regression is not commonplace in civil war literature, as logistic regression are often favored due to our measurement of dependent variables in the literature.[^3] Even so, OLS regression is a powerful tool when assumptions are met. The next example table is from Bethany Lacina's 2006 article titled "Explaining the Severity of Civil Wars" published in *Journal of Conflict Resolution*.
 
-`image(1:8,1,as.matrix(1:8),col=pridepalettes$bakerpride,xlab="",
-      ylab="",xaxt="n",yaxt="n",bty="n")`
+[^3]: Model selection should be driven by the measurement and type of dependent variable. OLS estimation requires a continuous variable with a normal distribution. Additionally, OLS models are used when the expected relationship between dependent and independent variables is *linear*. Other estimation strategies, like logistic regression, have different assumptions about the dependent variable and expected relationship. For example, logistic regressions are often used when dependent variables are categorical -- e.g., 0 or 1, or 0, 1, 2, 3, or some other distinctive categories. Other dependent variables, like temporal-based measurements like duration or time-to-event, require wholly different modeling strategies like hazards models.
 
-Output: <img src="images/bakerpride.png" width="400" height="200" align=center>
+![Table 2 in Lacina 2006](images/Lacina2006_Table2.png "Lacina 2006: Table 2")
 
-Using `OrchardSprays`, I created two boxplots, `decrease ~ treatment` with `transpride` and `nonbinarypride` palettes using;
+This table identifies the employed model in the title. On the left side, we see a list of independent variables. The dependent variable **does not show up** in the table. As a reminder, we are estimating the effect of independent variables (IVs) *on* the dependent variable (DV). In this case, the DV is measured as the log of total battle deaths, so it is continuous. We are estimating linear relationships, where an increase (decrease) in the value of the IV corresponded to an increase (decrease) in the value of the DV. This increase (decrease) is represented by the *coefficient*.
 
-`plot(decrease ~ treatment, OrchardSprays, col=pridepalettes$transpride)`
+In this example, an increase of one value in the IV corresponds to an additional battle death. For the first IV on the left, *ln Duration*, we see a positive coefficient with a p-value of 0.000 -- indicating the significance of this estimate. This means that for a 1% change in duration, there is a 1% change in total battle deaths; in this case, the coefficient (0.81) is the expected change, in percent, of battle deaths if duration is increased by 1%. This is a complex example because both the DV and IV are log transformed.
 
-Output:
+The p-value is the probability of this result given the null hypothesis were true. Often, the null hypothesis is not spelled out in articles; this usually represents a non-relationship. For example, the null hypothesis in the above table for *ln Duration* is that duration has no effect on battle deaths. In this case, the p-value is 0.000 -- statistically significant, giving us reason to **reject the null hypothesis**. The smaller the p-value, the more confident we are in rejecting the null hypothesis.
 
-<img src="images/transorchard.png" width="400" align=center>
+P-values are usually associated with asterisks (\*) in tables, where more asterisks/stars are given based on thresholds. The most common are below:
 
-`plot(decrease ~ treatment, OrchardSprays, col=pridepalettes$nonbinarypride)`
-
-Output:
-
-<img src="images/nonbinaryorchard.png" width="400" align=center>
-
-To use: run the below code.
-
-```r
-pridepalettes <- list(
-  bakerpride = c("#fe6ab4", "#fe0000", "#fe8d01", "#ffff01", "#008d00", "#00c1c0", "#42009b", "#8f008e"),
-  traditionalpride = c("#e40203","#ff8b00", "#feed01", "#007f24", "#004dff", "#760789"),
-  phillypride = c("#010101", "#785016", "#fe0000", "#fd8c00", "#ffe500", "#109e0a", "#0644b3", "#c22edc"),
-  bipride = c("#d6006f", "#724e94", "#0038a7"),
-  panpride = c("#ff228c", "#ffd801", "#20b2ff"),
-  apride = c("#000000","#7f7f7f","#ffffff","#660066"),
-  labryspride = c("#782591", "#000000", "#ffffff"),
-  intersexpride = c("#ffd800", "#7902aa"),
-  transpride = c("#5bcefa", "#f5a8b8", "#ffffff"),
-  gfluidpride = c("#fe75a1", "#ffffff", "#bd16d6", "#000000", "#323dbb"),
-  gqueerpride = c("#b57edc", "#ffffff", "#4A8123"),
-  lesbianpride = c("#a40061", "#b75592", "#d063a6", "#ededeb", "#e3abce", "#c54e54", "#8a1e04"),
-  nonbinarypride = c("#fef433", "#ffffff", "#9a59cf", "#2d2d2d")
-)
-```
-
-Please use these palettes as you wish, and tag me in a tweet if you do!
+-   *p* \< 0.10 =
+    -   Corresponding with a z-score or standard deviations of:
+    -   \< -1.65 or \> +1.65
+-   *p* \< 0.05 =
+    -   Corresponding with a z-score or standard deviations of:
+    -   \< -1.96 or \> +1.96
+-   *p* \< 0.01 =
+    -   Corresponding with a z-score or standard deviations of:
+    -   \< -2.58 or \> +2.58
