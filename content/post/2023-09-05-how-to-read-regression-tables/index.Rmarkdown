@@ -28,6 +28,27 @@ In this post, I review how to interpret regression tables in articles related to
 
 {{< toc >}}
 
+## Notable Terms
+Some important terms will come up in tables. I've listed a few below with explanations!
+
+#### Variables
+**Independent variables** are predictors for **dependent variables**. Independent variables (or IVs) encompass both the key or main explanatory variable for a hypothesis, argument, and model, as well as the control or confounding variables (also called regressors in regression models). Groups of independent variables comprise the equation that estimates or predicts the dependent variable (or DV). Dependent variables (also called regressands in regression models) are regressed on independent variables to estimate the outcome or change based on changes in the IVs.
+
+#### Dummy Variables
+**Dummy (or binary) Variables** are often independent variables that measure some concept in simplistic fashion. Dummy variables are often binary (0 or 1) and used as controls in regressions to account for confounding factors which may change our estimate of the dependent variable. For example, _regional dummy variables_ in a regression estimation would allow us to control for the influence of regional effects. These dummy variables would be coded as, for example, Africa = 0 for Mexico but Africa = 1 for Nigeria; there would be as many dummy variables as concepts for each observation. For this regional example, Nigeria would be coded as Africa = 1, Asia = 0, Europe = 0, and Americas = 0.
+
+#### Number of Observations (_n_)
+The lowercase, and sometimes uppercase, _n_ is reported in regression and descriptive statistics tables to provide context to the reader about how many observations the results or data are based on. While I dive more into this in the below section, _n_ in regression refers to the number of observations included in the analyses; this number affects our estimates of variance and standard errors for every variable. In regression, the number of observations must be greater than the number of regressors (or, independent variables), for us to be able to perform the math.
+
+#### Log, Logarithim, or "ln"
+When scholarly work refers to "the log of X" it means a variable was transformed using the **natural logarithm** function. This produces a number's logarithm to the base of _e_, a mathematical constant equal to approx. 2.718. In Ordinary Least Squares regression, logarithm transformations are used when variables' distributions are strongly skewed in one direction (explicitly, positively) or when theoretically justified, where one wants a model which explains percentage changes in the DV with marginal changes in the explanatory variable.
+
+#### Lag and Leads
+In regressions, scholars will sometimes "lag" and "lead" variables to account for temporal ordering effects. Lagging variables means 'shifting' values at time _t_ to time _t-1_, and leading variables means 'shifting' values at time _t_ to time _t+1_. Authors will report when variables are transformed in regression tables by specifying a subscript (i.e., below the text like~this~) with "lag" or "lead" -- or, authors may write _t-1_ or _t+1_ to indicate this. This information may be conveyed in a footnote, like in Table 1. from Fearon and Laitin (2003) below.
+
+#### 
+
+
 ## Descriptive Statistics Tables
 
 When you come across tables in readings, you often will first encounter *descriptive statistics*. These tables provide descriptive information about the data used in the analyses. To build understanding, it's key that you review this descriptive information -- this allows you to identify the article's (limited or broad) application and critique any shortcomings.
@@ -70,11 +91,11 @@ The **standard deviation** column also provides insight into the variation of ea
 
 [^1]: Assuming the data is normally distributed, meaning it has a symmetric bell shape where the mean and mediation are equal. Ordinary least squares regressions require this assumption for all the data.
 
-In the first row, for example, *PHYSINT* is measured from 0 to 8. The mean is 3.128 and the standard deviation is 2.373. Within one standard deviation, 68% of the data fall between 0.755 and 5.501. This tells us that this variable is skewed toward lower scores -- or, that most observations have low violations from $\approx$ 0 to $\approx$ 5.
+In the first row, for example, *PHYSINT* is measured from 0 to 8. The mean is 3.128 and the standard deviation is 2.373. Within one standard deviation, 68% of the data fall between 0.755 and 5.501. This tells us that this variable is skewed toward lower scores -- or, that most observations have low violations from \approx 0 to \approx 5.
 
 ## Ordinary Least Squares Regression
 
-Ordinary Least Squares (OLS) regression is a linear least squares estimation strategy. OLS maximizes the sum of the squares of the differences between observed dependent variable and the independent variable. There are many assumptions underpinning OLS regression, but these are not crucial for table interpretation.
+Ordinary Least Squares (OLS) regression is a linear least squares estimation strategy. OLS maximizes the sum of the squares of the differences between observed dependent variable and the independent variable. See [this article for a visual explainer](https://setosa.io/ev/ordinary-least-squares-regression/) of OLS regression. There are many assumptions underpinning OLS regression, but we will not dive into them as they do not fundamentally change our interpretation of published OLS regression tables.
 
 We use estimation strategies to determine *causality* between an independent and dependent variable. We regress **dependent variables *on* independent variables**, with the hopes of explaining variation in dependent variables using independent variables. Non-causal methods are also used in political science, like cross-tabulations and correlations (also called bivariate analysis).[^2]
 
@@ -92,26 +113,32 @@ Lacina is testing determinants of civil war severity. The dependent variable in 
 
 This table identifies the employed model in the title. On the left side, we see a list of independent variables. The dependent variable **does not show up** in the table. As a reminder, we are estimating the effect of independent variables (IVs) *on* the dependent variable (DV). In this case, the DV is measured as the log of total battle deaths, so it is continuous. We are estimating linear relationships, where an increase (decrease) in the value of the IV corresponded to an increase (decrease) in the value of the DV. This increase (decrease) is represented by the *coefficient*.
 
-In this example, an increase of one value in the IV corresponds to an additional battle death. For the first IV on the left, *ln Duration*, we see a positive coefficient with a p-value of 0.000 -- indicating the significance of this estimate. This means that for a 1% change in duration, there is a 1% change in total battle deaths; in this case, the coefficient (0.81) is the expected change, in percent, of battle deaths if duration is increased by 1%. This is a complex example because both the DV and IV are log transformed.
+For the first IV on the left, *ln Duration*, we see a positive coefficient with a p-value of 0.000 -- indicating the significance of this estimate. This means that for a 1% change in duration, there is a percentage change in total battle deaths; in this case, the coefficient (0.81) is the expected change, in percent, of battle deaths if duration is increased by 1%. Thus, a 1% change in duration corresponds to a 0.81% increase in battle deaths. This example is a little difficult to interpret because both the DV and IV are log transformed; see [this explainer](https://library.virginia.edu/data/articles/interpreting-log-transformations-in-a-linear-model) for more information on interpretation of logs in OLS regression.
 
-The p-value is the probability of this result given the null hypothesis were true. Often, the null hypothesis is not spelled out in articles; this usually represents a non-relationship. For example, the null hypothesis in the above table for *ln Duration* is that duration has no effect on battle deaths. In this case, the p-value is 0.000 -- statistically significant, giving us reason to **reject the null hypothesis**. The smaller the p-value, the more confident we are in rejecting the null hypothesis.
+Other coefficients are more straightforward. For example, the "Cold war" variable is coded as 1 for wars that started prior to 1989, and 0 otherwise. Thus, we can interpret the coefficient (0.67) as the percentage increase in the dependent variable -- a 67% increase, to be exact. We interpret this as a percentage change because the dependent variable is log transformed. The 'Cold war' variable has a p-value of 0.036 -- which would be considered significant according to the p-value thresholds listed in the below section.
+
+The p-value is the probability of a result given the null hypothesis were true. Often, the null hypothesis is not specified in articles; the null hypothesis is usually that there is _no relationship_ (i.e., all the coefficients are 0). For example, the null hypothesis in the above table for *ln Duration* is that duration has no effect on battle deaths. In this case, the p-value is 0.000 -- statistically significant, giving us evidence to **reject the null hypothesis**.[^4] The smaller the p-value, the more confident we are in rejecting the null hypothesis.
+
+[^4]: Regression analyses do not "prove" results. We are only able to either find evidence to reject a null hypothesis or not reject a null hypothesis 
 
 ## Logistic Regression
 
-Logistic regression (or "logit") models the probability of an event/outcome based on the linear combination of independent variables. The dependent variable, or outcome, is **categorical**: binary (0 or 1), multinomial (3 or more categories without ordering), or ordinal (3 or more categories with ordering). The logistic model is 'logistic' because data is first fit into a linear regression model, then predicted using a logistic function -- producing a log curve.
+Logistic regression (or "logit") models the probability of an event/outcome based on the linear combination of independent variables; it estimates the probability of classes of outcomes. The dependent variable, or outcome, is **categorical**: binary (0 or 1), multinomial (3 or more categories without ordering), or ordinal (3 or more categories with ordering). The logistic model is 'logistic' because data is first fit into a linear regression model, then predicted using a logistic function -- producing a log curve.
 
-The outcome of logistic regressions is **probability** -- meaning it is bounded between 0 and 1. First, the _odds_ of the outcome are estimated. Then, a logit transformation is applied to the _odds_ to produce the _log odds_, i.e., the probability of success divided by the probability of failure. The _odds ratio_ represents the probability of the outcome as a function of changes in the independent variable(s) -- i.e., the value representing the odds of the outcome being 1 versus 0 for every one unit increase in an IV. The _odds ratio_ is the exponentiated coefficient for a predictor. 
+The outcome of logistic regressions is **probability** -- meaning it is bounded between 0 and 1. The _odds_ of the outcome are estimated, then a logistic transformation is applied to the _odds_ to produce the _log odds_, i.e., the probability of success divided by the probability of failure. These log odds are often reported in published logit regression tables. To better interpret the effects, authors (or you!) can calculate the _odds ratios_ (ORs). ORs are calculated by exponentiating the coefficients (_log odds_); we exponentiate becasue the variables are log-transformed.
+
+ORs represent the probability of the outcome given a 1 unit change in the independent variable(s) -- and this compounds if there are larger changes in the independent variable(s). If the OR is greater than 1, then the IV is associated with higher odds of the outcome/DV. If it is less than 1, then there are lower odds of the outcome/DV. These effects assume we hold all other variables constant at their means (or, mean effect).
 
 ### Example Table: Fearon and Laitin (2003)
 
 This next example come from James Fearon and David Laitin's 2003 article titled "Ethnicity, Insurgency, and Civil War" published in _The American Political Science Review_. They are testing determinants of civil war onset, which include prior wars, state-level factors, and social factors.
 
 ![Table 1 in Fearon and Laitin 2003](images/FearonLaitin2003_Table1.png "Fearon and Laitin 2003: Table 1")
-In this table, we clearly see this is a logistic regression (logit) in the title. The column on the left are the independent variables, and the columns labeled 1 through 5 represent **different models** -- in this case, different measurements of civil war.
+In this table, we clearly see this is a logistic regression (logit) in the title. The column on the left are the independent variables, and the columns labeled 1 through 5 represent **different models** -- in some models, there are different DVs (measurements of civil wars), and in other models, they use a different combination of independent variables. For example, models (1) and (2) use the same set of variables to estimate different DVs; while models (1) and (3) use different variables to estimate the same DVs.
 
-The first row measures whether the country had a prior war. It is binary and takes the value of 1 if there was a prior war and 0 otherwise. I will focus on the coefficient in the first model ('Civil War'). This coefficient is negative and has two asterisks next to it. Underneath it, there is a number in parentheses. This number is the standard errors **of the coefficient**. This is used to calculate the p-value. If we multiply the standard error by 1.96 or 2.58 or 3.29 (z-scores listed below), then add and subtract that value from the coefficient,[^4] we can list the number of asterisks for any values that **do not cross 0**. When the value crosses 0, we can no longer be confident that there is an effect of the independent variable on the dependent variable.
+The first row measures whether the country had a prior war. It is binary and takes the value of 1 if there was a prior war and 0 otherwise. I will focus on the coefficient in the first model ('Civil War'). This coefficient is negative and has two asterisks next to it. Underneath it, there is a number in parentheses. This number is the standard errors **of the coefficient**. This is used to calculate the p-value. If we multiply the standard error by 1.96 or 2.58 or 3.29 (z-scores listed below), then add and subtract that value from the coefficient,[^5] we can list the number of asterisks for any values that **do not cross 0**. When the value crosses 0, we can no longer be confident that there is an effect of the independent variable on the dependent variable.
 
-[^4]: This is for a two-tailed test. For one-tailed tests, you just add _or_ subtract the value. Determining the direction of the tail is a theoretical question, but many articles simply use a two-tailed test.
+[^5]: This is for a two-tailed test. For one-tailed tests, you just add _or_ subtract the value. Determining the direction of the tail is a theoretical question, but many articles simply use a two-tailed test.
 
 In this example, we are moderately confident that there is a negative effect of prior war on the onset of civil war. To further interpret this coefficient, we can exponentiate the coefficient (e^-0.954) to produce an odds ratio (0.385). We interpret this as the probability of the outcome when there is an increase of 1 in the independent variable. For this example, when states move from no prior war to prior war, they are 0.385 times more likely (corresponding to a reduction of incidence/outcome). This means prior war has a negative or reduction effect on the probability of war onset.
 
@@ -126,6 +153,17 @@ P-values are usually associated with asterisks (\*) in tables, where more asteri
     -   Corresponding with a z-score or standard deviations of:
     -   \< -3.29 or \> +3.29
 
-**Cautionary note**: these thresholds are chosen by the authors. Some journals require certain thresholds, others do not. It is important to recognize these thresholds, as different ones could change the interpretation of the asterisks. When in doubt, you can always perform the calculations yourself.
+**Cautionary note**: these thresholds are chosen by the authors. Some journals require certain thresholds, others do not. It is important to recognize these thresholds, as different thresholds could change the interpretation of the asterisks. When in doubt, you can always perform the calculations yourself as described above.
+
+## Other Analyses...
+There are many _many_ other types of analysis that scholars use to test hypotheses. Some of these include proportional hazards models (or survival models), two-stage estimation strategies with instrumental variables, and more simple correlations or bivariate analyses (e.g., ANOVA). This post explains the interpretation of OLS regression tables and logistic regression tables, and as such, not all regression tables can be read using these explanations. Importantly, while coefficients are reported for all regression models, the math underpinning them influences how we _can_ and _should_ interpret them.
+
+Additionally, the standard errors p-values should be interpreted based on the specific type of model used to estimate the dependent variable -- as we cannot use the tips explained in this post to interpret, say, standard errors in hazards models. Data consumers must understand the transformation processes required to interpret other models' outputs.
+
+Finally, if there are any doubts about regression outputs, look to the article text. Most scholars will explain their models in plain text terms that can aid in understanding the significance and magnitude of the effects -- especially for findings related to their hypotheses.
+
+If you would like to watch a video about reading regression tables, [Carolyn Coberly has a detailed video on interpretation here](https://youtu.be/qRD-sn8Czwc?si=8HQcq0oMNy9NnQXO).
+
+Additionally, I have a one-page PDF which breaks down Table 1. from Fearon and Laitin (2003), {{< staticref "uploads/HowToReadQuantitativeTables.pdf" "newtab" >}}available here{{< /staticref >}}.
 
 

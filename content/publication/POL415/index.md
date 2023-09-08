@@ -32,3 +32,9 @@ While this course is focused on large-N cross-national quantitative studies of c
 - Present and discuss readings, opinions, and reactions to literature in small- and large- group settings.
 - Apply information from course readings to self-chosen civil war and responsibly make connections between general theories and the chosen civil war.
 - Demonstrate knowledge and understanding of others’ viewpoints and interpretations of course readings on civil wars.
+
+**Course Resources**
+
+[Blog post on reading quantitative tables.]({{<relref "post/how-to-read-regression-tables" >}})
+
+{{< staticref "uploads/HowToReadQuantitativeTables.pdf" "newtab" >}}PDF on reading quantitative tables.{{< /staticref >}}
