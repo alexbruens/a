@@ -35,6 +35,6 @@ While this course is focused on large-N cross-national quantitative studies of c
 
 **Course Resources**
 
-[Blog post on reading quantitative tables.]({{<relref "post/how-to-read-regression-tables" >}})
+[Blog post on reading quantitative tables.]({{<relref "/post/how-to-read-regression-tables" >}})
 
 {{< staticref "uploads/HowToReadQuantitativeTables.pdf" "newtab" >}}PDF on reading quantitative tables.{{< /staticref >}}
