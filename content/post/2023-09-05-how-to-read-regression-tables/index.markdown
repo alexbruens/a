@@ -6,8 +6,12 @@ date: '2023-09-10'
 slug: how-to-read-regression-tables
 categories:
   - Interpretation
+  - Data
+  - Teaching
 tags:
   - Interpretation
+  - Data
+  - Teaching
 subtitle: ''
 summary: ''
 authors:
@@ -61,11 +65,11 @@ Some questions to keep in mind with descriptive statistics tables:
 -   Is there substantial variation in the dependent and independent variables? How about the control variables? If not, how might this bias our interpretation?
     -   Related, are any variables transformed? Either logarithmic or squaring or cubing -- how does this impact our interpretation of the coefficients and broader findings?
 
-Descriptive statistics are useful to get your bearings on the data underpinning an article. **Importantly**: these tables can look very different from article to article, and sometimes convey very different information. This is important to keep in mind becasue you, as a reader/consumer, need to know what you're looking for and how it impacts your interpretation of the analyses.
+Descriptive statistics are useful to get your bearings on the data underpinning an article. **Importantly**: these tables can look very different from article to article, and sometimes convey very different information. This is important to keep in mind becasue you, as a reader and data consumer, need to know what you're looking for and how it impacts your interpretation of the analyses.
 
 ### Example Table 1: Collier and Hoeffler (2004)
 
-The first table we will look at is from Paul Collier and Anke Hoeffler's (C&H) 2004 piece in *Oxford Economic Papers* titled "Greed and grievance in civil war". This article tests the significance of competing theories of *greed* and *grievance* on civil war onset.
+The first table we will look at is from Paul Collier and Anke Hoeffler's (C&H) 2004 piece in *Oxford Economic Papers* titled "Greed and grievance in civil war". This article tests the significance of competing theories of greed and grievance on civil war onset. [Link to article on JSTOR (restricted access)](https://www.jstor.org/stable/3488799), or a [PDF copy hosted at NYU (free access)](https://pages.nyu.edu/debraj/Courses/Readings/CollierHoeffler.pdf).
 
 ![Table 2 in Collier and Hoeffler 2004](images/CollierHoeffler2004_Table2.png "Collier and Hoeffler 2004: Table 2")
 
@@ -77,7 +81,7 @@ Other variables, the measures of income and land inequality toward the bottom of
 
 ### Example Table 2: DeMeritt and Young (2013)
 
-The second table we will look at is from Jacqueline DeMeritt and Joseph Young's 2013 piece in *Conflict Management and Peace Science* titled "A political economy of human rights". This article examines the impact of oil and natural resource extraction on state-perpetrated human rights violations.
+The second table we will look at is from Jacqueline DeMeritt and Joseph Young's 2013 piece in *Conflict Management and Peace Science* titled "A political economy of human rights". This article examines the impact of oil and natural resource extraction on state-perpetrated human rights violations. [Link to article on SAGEJournals (restricted access)](https://doi.org/10.1177/0738894212473915), or a [PDF copy hosted on Jacqueline DeMeritt's website (free access)](https://jdemeritt.weebly.com/uploads/2/2/7/7/22771764/demyou_cmps_2013.pdf).
 
 ![Table 2 in DeMeritt and Young 2013](images/DeMerittYoung2013_Table2.png "DeMeritt and Young 2013: Table 2")
 
@@ -103,7 +107,7 @@ We use estimation strategies to determine *causality* between an independent and
 
 ### Example Table: Lacina (2006)
 
-I would argue that OLS regression is not commonplace in civil war literature, as logistic regression are often favored due to our measurement of dependent variables in the literature.[^3] Even so, OLS regression is a powerful tool when assumptions are met. The next example table is from Bethany Lacina's 2006 article titled "Explaining the Severity of Civil Wars" published in *Journal of Conflict Resolution*.
+I would argue that OLS regression is not commonplace in civil war literature, as logistic regression are often favored due to our measurement of dependent variables in the literature.[^3] Even so, OLS regression is a powerful tool when assumptions are met. The next example table is from Bethany Lacina's 2006 article titled "Explaining the Severity of Civil Wars" published in *Journal of Conflict Resolution*. [Link to article on JSTOR (restricted access)](https://www.jstor.org/stable/27638487), or {{< staticref "uploads/Lacina2006.pdf" "newtab" >}}PDF version here{{< /staticref >}}.
 
 [^3]: Model selection should be driven by the measurement and type of dependent variable. OLS estimation requires a continuous variable with a normal distribution. Additionally, OLS models are used when the expected relationship between dependent and independent variables is *linear*. Other estimation strategies, like logistic regression, have different assumptions about the dependent variable and expected relationship. For example, logistic regressions are often used when dependent variables are categorical -- e.g., 0 or 1, or 0, 1, 2, 3, or some other distinctive categories. Other dependent variables, like temporal-based measurements like duration or time-to-event, require wholly different modeling strategies like hazards models.
 
@@ -123,7 +127,7 @@ The p-value is the probability of a result given the null hypothesis were true. 
 
 ## Logistic Regression
 
-Logistic regression (or "logit") models the probability of an event/outcome based on the linear combination of independent variables; it estimates the probability of classes of outcomes. The dependent variable, or outcome, is **categorical**: binary (0 or 1), multinomial (3 or more categories without ordering), or ordinal (3 or more categories with ordering). The logistic model is 'logistic' because data is first fit into a linear regression model, then predicted using a logistic function -- producing a log curve.
+Logistic regression (or "logit") models the probability of an event/outcome based on the linear combination of independent variables; it estimates the probability of classes of outcomes. The dependent variable, or outcome, is **categorical**: binary (0 or 1), multinomial (3 or more categories without ordering), or ordinal (3 or more categories with ordering). The logistic model is 'logistic' because data is first fit into a linear regression model, then predicted using a logistic function -- producing a log curve. See [this article for a visual and mathematic explainer](https://towardsdatascience.com/logistic-regression-explained-from-scratch-visually-mathematically-and-programmatically-eb83520fdf9a).
 
 The outcome of logistic regressions is **probability** -- meaning it is bounded between 0 and 1. The _odds_ of the outcome are estimated, then a logistic transformation is applied to the _odds_ to produce the _log odds_, i.e., the probability of success divided by the probability of failure. These log odds are often reported in published logit regression tables. To better interpret the effects, authors (or you!) can calculate the _odds ratios_ (ORs). ORs are calculated by exponentiating the coefficients (_log odds_); we exponentiate becasue the variables are log-transformed.
 
@@ -131,14 +135,14 @@ ORs represent the probability of the outcome given a 1 unit change in the indepe
 
 ### Example Table: Fearon and Laitin (2003)
 
-This next example come from James Fearon and David Laitin's 2003 article titled "Ethnicity, Insurgency, and Civil War" published in _The American Political Science Review_. They are testing determinants of civil war onset, which include prior wars, state-level factors, and social factors.
+This next example come from James Fearon and David Laitin's 2003 article titled "Ethnicity, Insurgency, and Civil War" published in _The American Political Science Review_. They are testing determinants of civil war onset, which include prior wars, state-level factors, and social factors. [Link to article on JSTOR (restricted access)](https://www.jstor.org/stable/3118222), or a [PDF copy hosted on SNEPS.net (free access)](https://www.sneps.net/t/images/Articles/03fearonlaitin.pdf).
 
 ![Table 1 in Fearon and Laitin 2003](images/FearonLaitin2003_Table1.png "Fearon and Laitin 2003: Table 1")
 In this table, we clearly see this is a logistic regression (logit) in the title. The column on the left are the independent variables, and the columns labeled 1 through 5 represent **different models** -- in some models, there are different DVs (measurements of civil wars), and in other models, they use a different combination of independent variables. For example, models (1) and (2) use the same set of variables to estimate different DVs; while models (1) and (3) use different variables to estimate the same DVs.
 
 The first row measures whether the country had a prior war. It is binary and takes the value of 1 if there was a prior war and 0 otherwise. I will focus on the coefficient in the first model ('Civil War'). This coefficient is negative and has two asterisks next to it. Underneath it, there is a number in parentheses. This number is the standard errors **of the coefficient**. This is used to calculate the p-value. If we multiply the standard error by 1.96 or 2.58 or 3.29 (z-scores listed below), then add and subtract that value from the coefficient,[^5] we can list the number of asterisks for any values that **do not cross 0**. When the value crosses 0, we can no longer be confident that there is an effect of the independent variable on the dependent variable.
 
-[^5]: This is for a two-tailed test. For one-tailed tests, you just add _or_ subtract the value. Determining the direction of the tail is a theoretical question, but many articles simply use a two-tailed test.
+[^5]: This is for a two-tailed test. For one-tailed tests, you only add _or_ subtract the value -- you do not add and subtract. One-tailed tests will also use slightly different p-values to determine significance. For more information, [this explainer from UCLA's stats department](https://stats.oarc.ucla.edu/other/mult-pkg/faq/general/faq-what-are-the-differences-between-one-tailed-and-two-tailed-tests/) has graphs and explains the difference well.  Determining the direction of the tail is a theoretical question -- i.e., if one _expects_ an effect in one direction, they can use a one-tailed test to raise the threshold required for significance in that direction. With this said, many articles use a two-tailed test.
 
 In this example, we are moderately confident that there is a negative effect of prior war on the onset of civil war. To further interpret this coefficient, we can exponentiate the coefficient (e^-0.954) to produce an odds ratio (0.385). We interpret this as the probability of the outcome when there is an increase of 1 in the independent variable. For this example, when states move from no prior war to prior war, they are 0.385 times more likely (corresponding to a reduction of incidence/outcome). This means prior war has a negative or reduction effect on the probability of war onset.
 
@@ -155,14 +159,14 @@ P-values are usually associated with asterisks (\*) in tables, where more asteri
 
 **Cautionary note**: these thresholds are chosen by the authors. Some journals require certain thresholds, others do not. It is important to recognize these thresholds, as different thresholds could change the interpretation of the asterisks. When in doubt, you can always perform the calculations yourself as described above.
 
-## Other Analyses...
+## Key Takeaways
 There are many _many_ other types of analysis that scholars use to test hypotheses. Some of these include proportional hazards models (or survival models), two-stage estimation strategies with instrumental variables, and more simple correlations or bivariate analyses (e.g., ANOVA). This post explains the interpretation of OLS regression tables and logistic regression tables, and as such, not all regression tables can be read using these explanations. Importantly, while coefficients are reported for all regression models, the math underpinning them influences how we _can_ and _should_ interpret them.
 
 Additionally, the standard errors p-values should be interpreted based on the specific type of model used to estimate the dependent variable -- as we cannot use the tips explained in this post to interpret, say, standard errors in hazards models. Data consumers must understand the transformation processes required to interpret other models' outputs.
 
 Finally, if there are any doubts about regression outputs, look to the article text. Most scholars will explain their models in plain text terms that can aid in understanding the significance and magnitude of the effects -- especially for findings related to their hypotheses.
 
-If you would like to watch a video about reading regression tables, [Carolyn Coberly has a detailed video on interpretation here](https://youtu.be/qRD-sn8Czwc?si=8HQcq0oMNy9NnQXO).
+If you would like to watch a video about reading regression tables, [Carolyn Coberly has an excellent highly detailed video on regression table interpretation here](https://youtu.be/qRD-sn8Czwc?si=8HQcq0oMNy9NnQXO).
 
 Additionally, I have a one-page PDF which breaks down Table 1. from Fearon and Laitin (2003), {{< staticref "uploads/HowToReadQuantitativeTables.pdf" "newtab" >}}available here{{< /staticref >}}.
 
