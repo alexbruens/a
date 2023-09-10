@@ -28,7 +28,7 @@ links: ''
 
 When reading scholarly political science articles, especially international relations pieces, regression tables are _everywhere_. And sometimes they're difficult to interpret, read, and understand.
 
-In this post, I review how to interpret regression tables in articles related to civil wars. This post is originally published as a compliment to my Fall 2023 course titled _The Scientific Study of Civil Wars_ ([link to course]({{< relref "/publication/pol415" >}})).
+In this post, I review how to interpret regression tables in articles related to civil wars. This post was originally published in September 2023 as a compliment to my Fall 2023 course titled _The Scientific Study of Civil Wars_ ([link to course]({{< relref "/publication/pol415" >}})).
 
 {{< toc >}}
 
@@ -38,7 +38,7 @@ Some important terms will come up in tables. I've listed a few below with explan
 #### Variables
 **Independent variables** are predictors for **dependent variables**. Independent variables (or IVs) encompass both the key or main explanatory variable for a hypothesis, argument, and model, as well as the control or confounding variables (also called regressors in regression models). Groups of independent variables comprise the equation that estimates or predicts the dependent variable (or DV). Dependent variables (also called regressands in regression models) are regressed on independent variables to estimate the outcome or change based on changes in the IVs.
 
-#### Dummy Variables
+##### Dummy Variables
 **Dummy (or binary) Variables** are often independent variables that measure some concept in simplistic fashion. Dummy variables are often binary (0 or 1) and used as controls in regressions to account for confounding factors which may change our estimate of the dependent variable. For example, _regional dummy variables_ in a regression estimation would allow us to control for the influence of regional effects. These dummy variables would be coded as, for example, Africa = 0 for Mexico but Africa = 1 for Nigeria; there would be as many dummy variables as concepts for each observation. For this regional example, Nigeria would be coded as Africa = 1, Asia = 0, Europe = 0, and Americas = 0.
 
 #### Number of Observations (_n_)
@@ -144,7 +144,7 @@ The first row measures whether the country had a prior war. It is binary and tak
 
 [^5]: This is for a two-tailed test. For one-tailed tests, you only add _or_ subtract the value -- you do not add and subtract. One-tailed tests will also use slightly different p-values to determine significance. For more information, [this explainer from UCLA's stats department](https://stats.oarc.ucla.edu/other/mult-pkg/faq/general/faq-what-are-the-differences-between-one-tailed-and-two-tailed-tests/) has graphs and explains the difference well.  Determining the direction of the tail is a theoretical question -- i.e., if one _expects_ an effect in one direction, they can use a one-tailed test to raise the threshold required for significance in that direction. With this said, many articles use a two-tailed test.
 
-In this example, we are moderately confident that there is a negative effect of prior war on the onset of civil war. To further interpret this coefficient, we can exponentiate the coefficient (e^-0.954) to produce an odds ratio (0.385). We interpret this as the probability of the outcome when there is an increase of 1 in the independent variable. For this example, when states move from no prior war to prior war, they are 0.385 times more likely (corresponding to a reduction of incidence/outcome). This means prior war has a negative or reduction effect on the probability of war onset.
+In this example, we are moderately confident that there is a negative effect of prior war on the onset of civil war. To further interpret this coefficient, we can exponentiate the coefficient using the natural logarithm base of _e_ (e^-0.954) to produce an odds ratio (0.385). We interpret this as the probability of the outcome when there is an increase of 1 in the independent variable. For this example, when observations (states) change from no prior war to prior war, they are 0.385 times more likely to see war onset (because this is less than 1, it corresponds with a reduction of incidence/outcome). This means prior war has a negative or reduction effect on the probability of war onset. Looking at the original coefficiant (or the log odds), we see a negative sign; this is the easiest way to interpret direction in logit models.
 
 P-values are usually associated with asterisks (\*) in tables, where more asterisks/stars are given based on thresholds. In the above table, the p-value thresholds are listed below:
 -   _p_ \< 0.05 = \*
