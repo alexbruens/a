@@ -38,7 +38,6 @@ Some important terms will come up in tables. I've listed a few below with explan
 #### Variables
 **Independent variables** are predictors for **dependent variables**. Independent variables (or IVs) encompass both the key or main explanatory variable for a hypothesis, argument, and model, as well as the control or confounding variables (also called regressors in regression models). Groups of independent variables comprise the equation that estimates or predicts the dependent variable (or DV). Dependent variables (also called regressands in regression models) are regressed on independent variables to estimate the outcome or change based on changes in the IVs.
 
-##### Dummy Variables
 **Dummy (or binary) Variables** are often independent variables that measure some concept in simplistic fashion. Dummy variables are often binary (0 or 1) and used as controls in regressions to account for confounding factors which may change our estimate of the dependent variable. For example, _regional dummy variables_ in a regression estimation would allow us to control for the influence of regional effects. These dummy variables would be coded as, for example, Africa = 0 for Mexico but Africa = 1 for Nigeria; there would be as many dummy variables as concepts for each observation. For this regional example, Nigeria would be coded as Africa = 1, Asia = 0, Europe = 0, and Americas = 0.
 
 #### Interactions
