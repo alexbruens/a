@@ -41,6 +41,9 @@ Some important terms will come up in tables. I've listed a few below with explan
 ##### Dummy Variables
 **Dummy (or binary) Variables** are often independent variables that measure some concept in simplistic fashion. Dummy variables are often binary (0 or 1) and used as controls in regressions to account for confounding factors which may change our estimate of the dependent variable. For example, _regional dummy variables_ in a regression estimation would allow us to control for the influence of regional effects. These dummy variables would be coded as, for example, Africa = 0 for Mexico but Africa = 1 for Nigeria; there would be as many dummy variables as concepts for each observation. For this regional example, Nigeria would be coded as Africa = 1, Asia = 0, Europe = 0, and Americas = 0.
 
+#### Interactions
+Interactions are when we combine two (or more) variables in a regression model. We do this by multiplying (or dividing) two (or more) separate variables; these are always independent variables. Interactions occur when an IV has a different effect on the DV depending on _another_ IV. For example, if we have two binary variables A and B, and we expect the effect of B = 1 to vary based on whether A = 1, we would **interact** (or mulitply) them to produce a 'third' variable. This 'third' variable A \times B would equal 1 only when A and B are equal to 1. Thus, the coefficient estimate is different than by looking just at A or B. Interactions are usually denoted with \times or uppercase X's.
+
 #### Number of Observations (_n_)
 The lowercase, and sometimes uppercase, _n_ is reported in regression and descriptive statistics tables to provide context to the reader about how many observations the results or data are based on. While I dive more into this in the below section, _n_ in regression refers to the number of observations included in the analyses; this number affects our estimates of variance and standard errors for every variable. In regression, the number of observations must be greater than the number of regressors (or, independent variables), for us to be able to perform the math.
 
@@ -48,7 +51,7 @@ The lowercase, and sometimes uppercase, _n_ is reported in regression and descri
 When scholarly work refers to "the log of X" it means a variable was transformed using the **natural logarithm** function. This produces a number's logarithm to the base of _e_, a mathematical constant equal to approx. 2.718. In Ordinary Least Squares regression, logarithm transformations are used when variables' distributions are strongly skewed in one direction (explicitly, positively) or when theoretically justified, where one wants a model which explains percentage changes in the DV with marginal changes in the explanatory variable.
 
 #### Lag and Leads
-In regressions, scholars will sometimes "lag" and "lead" variables to account for temporal ordering effects. Lagging variables means 'shifting' values at time _t_ to time _t-1_, and leading variables means 'shifting' values at time _t_ to time _t+1_. Authors will report when variables are transformed in regression tables by specifying a subscript (i.e., below the text like~this~) with "lag" or "lead" -- or, authors may write _t-1_ or _t+1_ to indicate this. This information may be conveyed in a footnote, like in Table 1. from Fearon and Laitin (2003) below.
+In regressions, scholars will sometimes "lag" and "lead" variables to account for temporal ordering effects. Lagging variables means 'shifting' values at time _t_ to time _t-1_, and leading variables means 'shifting' values at time _t_ to time _t+1_. Authors will report when variables are transformed in regression tables by specifying a subscript (i.e., below the text like$_{this}$) with "lag" or "lead" -- or, authors may write _t-1_ or _t+1_ to indicate this. This information may be conveyed in a footnote, like in Table 1. from Fearon and Laitin (2003) below.
 
 #### 
 
@@ -95,7 +98,7 @@ The **standard deviation** column also provides insight into the variation of ea
 
 [^1]: Assuming the data is normally distributed, meaning it has a symmetric bell shape where the mean and mediation are equal. Ordinary least squares regressions require this assumption for all the data.
 
-In the first row, for example, *PHYSINT* is measured from 0 to 8. The mean is 3.128 and the standard deviation is 2.373. Within one standard deviation, 68% of the data fall between 0.755 and 5.501. This tells us that this variable is skewed toward lower scores -- or, that most observations have low violations from \approx 0 to \approx 5.
+In the first row, for example, *PHYSINT* is measured from 0 to 8. The mean is 3.128 and the standard deviation is 2.373. Within one standard deviation, 68% of the data fall between 0.755 and 5.501. This tells us that this variable is skewed toward lower scores -- or, that most observations have low violations from `\(\approx\)` 0 to `\(\approx\)` 5.
 
 ## Ordinary Least Squares Regression
 
