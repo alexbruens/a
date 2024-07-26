@@ -26,15 +26,13 @@ content:
 #      captcha: false
 
   # Contact details (edit or remove options as required)
-  email: bruens@arizona.edu
+  email: abruens@unomaha.edu
   address:
-    street: P.O. Box 210027
-    city: Tucson
-    region: AZ
-    postcode: '85721'
+    city: Omaha
+    region: NE
     country: United States
     country_code: US
-  directions: School of Government and Public Policy, Social Sciences
+  directions: National Counterterrorism, Innovation, Technology, and Education (NCITE) Center at the University of Nebraska, Omaha
   contact_links:
     - icon: twitter
       icon_pack: fab
