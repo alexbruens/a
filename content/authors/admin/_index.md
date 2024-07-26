@@ -1,11 +1,11 @@
 ---
-title: Alex Bruens
+title: Alex Bruens, Ph.D.
 bio: 
 education:
   courses:
-  - course: PhD in International Relations
+  - course: Ph.D. in International Relations
     institution: University of Arizona
-    year: Expected 2024
+    year: 2024
   - course: MA in International Relations
     institution: University of Arizona
     year: 2021
@@ -15,18 +15,19 @@ education:
   - course: BA in Sociology
     institution: Florida Atlantic University
     year: 2019
-email: "bruens@arizona.edu"
+email: "abruens@unomaha.edu"
 highlight_name: true
 interests:
+- Counterterrorism and U.S. Homeland Security
 - United Nations Peace Operations
 - Violent and Non-Violent State Repression
 - Non-governmental Organizations & Civil Society
 - Human Rights, Civil Wars, and Non-State Violence
 organizations:
-- name: University of Arizona
-  url: https://sgpp.arizona.edu/people/alexander-bruens
+- name: National Counterterrorism, Innovation, Technology, and Education Center at the University of Nebraska, Omaha
+  url: https://www.unomaha.edu/ncite/index.php
 - name: (they/them)
-role: Ph.D. Candidate in International Relations
+role: Research Fellow
 social:
 - icon: envelope
   icon_pack: fas
