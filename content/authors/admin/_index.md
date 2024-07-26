@@ -31,13 +31,10 @@ role: Research Fellow
 social:
 - icon: envelope
   icon_pack: fas
-  link: mailto:bruens@arizona.edu
+  link: mailto:abruens@unomaha.edu
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/alexbruens
-- icon: graduation-cap
-  icon_pack: fas
-  link: https://sgpp.arizona.edu/person/alex-bruens
 - icon: github
   icon_pack: fab
   link: https://github.com/alexbruens
