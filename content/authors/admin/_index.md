@@ -27,11 +27,11 @@ organizations:
 - name: National Counterterrorism, Innovation, Technology, and Education Center at the University of Nebraska, Omaha
   url: https://www.unomaha.edu/ncite/staff-directory/alex-bruens.php
 - name: (they/them)
-role: Research Fellow
+role: Research Associate
 social:
 - icon: envelope
   icon_pack: fas
-  link: mailto:abruens@unomaha.edu
+  link: mailto:abruens@nebraska.edu
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/alexbruens
