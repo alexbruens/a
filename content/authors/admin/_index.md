@@ -25,7 +25,7 @@ interests:
 - Human Rights, Civil Wars, and Non-State Violence
 organizations:
 - name: National Counterterrorism, Innovation, Technology, and Education Center at the University of Nebraska, Omaha
-  url: https://www.unomaha.edu/ncite/staff-directory/alex-bruens.php
+  url: https://www.unomaha.edu/ncite/about-ncite/staff-directory/alex-bruens.php
 - name: (they/them)
 role: Assistant Research Professor
 social:
