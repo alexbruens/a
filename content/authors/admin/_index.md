@@ -27,7 +27,7 @@ organizations:
 - name: National Counterterrorism, Innovation, Technology, and Education Center at the University of Nebraska, Omaha
   url: https://www.unomaha.edu/ncite/staff-directory/alex-bruens.php
 - name: (they/them)
-role: Research Associate
+role: Assistant Research Professor
 social:
 - icon: envelope
   icon_pack: fas
@@ -44,7 +44,7 @@ social:
 superuser: true
 ---
 
-Alex is a Research Associate at the [National Counterterrorism, Innovation, Technology, and Education Center (NCITE)](https://www.unomaha.edu/ncite/index.php) at the University of Nebraska at Omaha. They earned their Ph.D. from the University of Arizona in 2024.
+Alex is an Assistant Research Professor at the [National Counterterrorism, Innovation, Technology, and Education Center (NCITE)](https://www.unomaha.edu/ncite/index.php) at the University of Nebraska at Omaha. They earned their Ph.D. from the University of Arizona in 2024.
 
 Their Ph.D. research examines United Nations (UN) peacekeeping and political interventions in civil wars; as well as the myriad non-governmental and state actors working alongside the United Nations in development and peacebuilding after civil wars. They investigate the effect of these interventions on violent and non-violent state repression during and after civil conflicts.
 
