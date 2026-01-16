@@ -56,4 +56,4 @@ Alex holds two bachelor’s degrees from Florida Atlantic University and a maste
 
 Alex uses they/them pronouns.
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/bruens_CV_1225.pdf" "newtab" >}}curriculum vitae{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/Bruens_CV.pdf" "newtab" >}}curriculum vitae{{< /staticref >}}.
